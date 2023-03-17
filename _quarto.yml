@@ -3,9 +3,20 @@ project:
 
 website:
   title: "Menu"
+  page-footer:
+    left: "Blog made with [Quarto](https://quarto.org/), by Clément Rieux. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
+    right:
+      - icon: github
+        href: https://www.linkedin.com/in/ClementRieux/
+      - icon: envelope
+        href: mailto:clement.rieux@yahoo.com
   navbar:
     right:
       - about.qmd
+      - text: Posts
+        menu:
+          - text: All posts
+            href: posts/index.qmd
       - icon: github
         href: https://www.linkedin.com/in/ClementRieux/
       - icon: envelope
