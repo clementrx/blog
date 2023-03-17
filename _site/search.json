@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Clément Rieux",
+    "section": "",
+    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMar 17, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMar 14, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Clément Rieux",
+    "section": "",
+    "text": "Hi!\nMy name is Clément, and I am Data Scientist from France.\nI’m a fan of R and use it daily.\nI have a master’s degree in economics from the Toulouse School of Economis, and I have been working for Epsilon France since 2019 as consultant.\nMy personal projects are about horse racing in France."
+  },
+  {
+    "objectID": "about-fr.html",
+    "href": "about-fr.html",
+    "title": "Clément Rieux",
+    "section": "",
+    "text": "Bonjour!\nJe m’appelle Clément, et je suis Data Scientist en France.\nJe suis un fan de R et je l’utilise quotidiennement.\nJ’ai un Master d’Economie de Toulouse School of Economis, et je travaille pour Epsilon France depuis 2019 en tant que consultant.\nMes projets personnels sont axés sur les courses de chevaux en France."
+  }
+]
