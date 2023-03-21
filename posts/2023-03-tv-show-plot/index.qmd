@@ -309,4 +309,6 @@ df_avg %>%
 
 Now you are able to retrieve data from [imdb](https://www.imdb.com/?ref_=nv_home) and do analysis yourself !
 
+If you want to see all the code and examples (Stranger Things, Peaky Bliders, The Simpsons...), you can find it on my [github](https://github.com/clementrx/tv_show_plot).
+
 ![](https://media.giphy.com/media/mGK1g88HZRa2FlKGbz/giphy.gif){fig-align="center" width="471"}
