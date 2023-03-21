@@ -1,5 +1,5 @@
 ---
-title: "Web scraping and tv show anaylsis"
+title: "Web scraping and tv show analysis"
 subtitle: "Get and plot imdb data"
 draft: FALSE
 author: ["Clément Rieux"]
