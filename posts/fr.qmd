@@ -1,8 +1,8 @@
 ---
 title: "Posts"
 listing:
-  - id: posts
-    contents: "**/*/index.qmd"
+  - id: posts-fr
+    contents: "*/fr/*.qmd"
     type: grid
     fields: [image, date, title, subtitle, categories, reading-time]
     sort: "date desc"

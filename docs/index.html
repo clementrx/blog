@@ -58,7 +58,7 @@ ul.task-list{list-style: none;}
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-posts-en .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -71,7 +71,63 @@ ul.task-list{list-style: none;}
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-posts-en'] = new List('listing-posts-en', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts-fr .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-subtitle','listing-categories','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts-fr'] = new List('listing-posts-fr', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -114,6 +170,14 @@ ul.task-list{list-style: none;}
     <a class="dropdown-item" href="./posts/index.html">
  <span class="dropdown-text">All posts</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/en.html">
+ <span class="dropdown-text">English</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./posts/fr.html">
+ <span class="dropdown-text">Français</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item compact">
@@ -136,9 +200,19 @@ ul.task-list{list-style: none;}
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#recent-posts-articles-récents" id="toc-recent-posts-articles-récents" class="nav-link active" data-scroll-target="#recent-posts-articles-récents">Recent posts / Articles récents</a></li>
+  <li><a href="#posts-in-english" id="toc-posts-in-english" class="nav-link" data-scroll-target="#posts-in-english">Posts in English</a></li>
+  <li><a href="#articles-en-français" id="toc-articles-en-français" class="nav-link" data-scroll-target="#articles-en-français">Articles en Français</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -156,44 +230,65 @@ ul.task-list{list-style: none;}
 
 </header>
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<section id="recent-posts-articles-récents" class="level2">
+<h2 class="anchored" data-anchor-id="recent-posts-articles-récents">Recent posts / Articles récents</h2>
+<div id="listing-posts" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="library,package" data-listing-date-sort="1679353200000" data-listing-file-modified-sort="1679423469221" data-listing-reading-time-sort="2.525">
+<a href="./posts/2023-03-top-lib/fr/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/2023-03-top-lib/fr/lib.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Les library de bases
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 21, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="scraping,plot,httr,Web Scraping" data-listing-date-sort="1679266800000" data-listing-file-modified-sort="1679408900139" data-listing-reading-time-sort="7.47">
+<a href="./posts/2023-03-tv-show-plot/en/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/2023-03-tv-show-plot/en/tv.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Web scraping and tv show analysis
+</h5>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Mar 20, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<p><a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all</button></a></p>
+</section>
+<section id="posts-in-english" class="level2">
+<h2 class="anchored" data-anchor-id="posts-in-english">Posts in English</h2>
+<div id="listing-posts-en" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1679067180071" data-listing-reading-time-sort="0.01">
+<div class="quarto-post image-right" data-index="0" data-categories="scraping,plot,httr,Web Scraping" data-listing-date-sort="1679266800000" data-listing-file-modified-sort="1679408900139" data-listing-reading-time-sort="7.47">
 <div class="thumbnail">
-<a href="./posts/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="./posts/index.html"></a></p>
+<p><a href="./posts/2023-03-tv-show-plot/en/index.html"> <img src="./posts/2023-03-tv-show-plot/en/tv.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="./posts/index.html">
-<h3 class="no-anchor listing-title">
-Posts
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/index.html">
-<div class="listing-reading-time">
-0 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="scraping,plot,httr,Web Scraping" data-listing-date-sort="1679266800000" data-listing-file-modified-sort="1679408900139" data-listing-reading-time-sort="7.47">
-<div class="thumbnail">
-<p><a href="./posts/2023-03-tv-show-plot/index.html"> <img src="./posts/2023-03-tv-show-plot/tv.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/2023-03-tv-show-plot/index.html">
+<a href="./posts/2023-03-tv-show-plot/en/index.html">
 <h3 class="no-anchor listing-title">
 Web scraping and tv show analysis
 </h3>
@@ -215,10 +310,10 @@ httr
 Web Scraping
 </div>
 </div>
-<a href="./posts/2023-03-tv-show-plot/index.html"> </a>
+<a href="./posts/2023-03-tv-show-plot/en/index.html"> </a>
 </div>
 <div class="metadata">
-<a href="./posts/2023-03-tv-show-plot/index.html">
+<a href="./posts/2023-03-tv-show-plot/en/index.html">
 <div class="listing-date">
 Mar 20, 2023
 </div>
@@ -235,7 +330,62 @@ Clément Rieux
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div></main> <!-- /main -->
+</div>
+<p><a href="../posts/en.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all posts in English</button></a></p>
+</section>
+<section id="articles-en-français" class="level2">
+<h2 class="anchored" data-anchor-id="articles-en-français">Articles en Français</h2>
+<div id="listing-posts-fr" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="library,package" data-listing-date-sort="1679353200000" data-listing-file-modified-sort="1679423469221" data-listing-reading-time-sort="2.525">
+<div class="thumbnail">
+<p><a href="./posts/2023-03-top-lib/fr/index.html"> <img src="./posts/2023-03-top-lib/fr/lib.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./posts/2023-03-top-lib/fr/index.html">
+<h3 class="no-anchor listing-title">
+Les library de bases
+</h3>
+<div class="listing-subtitle">
+Les library à connaitre
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('library'); return false;">
+library
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('package'); return false;">
+package
+</div>
+</div>
+<a href="./posts/2023-03-top-lib/fr/index.html"> </a>
+</div>
+<div class="metadata">
+<a href="./posts/2023-03-top-lib/fr/index.html">
+<div class="listing-date">
+Mar 21, 2023
+</div>
+<div class="listing-author">
+Clément Rieux
+</div>
+<div class="listing-reading-time">
+2 min
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<p><a href="../posts/fr.html"> <button type="button" class="btn btn-primary float-end btn-sm">Voir les articles en Français</button></a></p>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

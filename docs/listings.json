@@ -2,14 +2,27 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/index.html",
-      "/posts/2023-03-tv-show-plot/index.html"
+      "/posts/2023-03-tv-show-plot/en/index.html",
+      "/posts/2023-03-top-lib/fr/index.html"
     ]
   },
   {
     "listing": "/posts/index.html",
     "items": [
-      "/posts/2023-03-tv-show-plot/index.html"
+      "/posts/2023-03-top-lib/fr/index.html",
+      "/posts/2023-03-tv-show-plot/en/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/fr.html",
+    "items": [
+      "/posts/2023-03-top-lib/fr/index.html"
+    ]
+  },
+  {
+    "listing": "/posts/en.html",
+    "items": [
+      "/posts/2023-03-tv-show-plot/en/index.html"
     ]
   }
 ]

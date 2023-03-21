@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Clément Rieux",
     "section": "",
-    "text": "0 min\n\n\n\n\n\n\n  \n\n\n\n\n\nGet and plot imdb data\n\n\n\n\nscraping\n\n\nplot\n\n\nhttr\n\n\nWeb Scraping\n\n\n \n\n\n\n\nMar 20, 2023\n\n\nClément Rieux\n\n\n7 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Mar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\n See all"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -18,7 +18,7 @@
     "href": "posts/index.html",
     "title": "Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWeb scraping and tv show analysis\n\n\nGet and plot imdb data\n\n\n7 min\n\n\n\nscraping\n\n\nplot\n\n\nhttr\n\n\nWeb Scraping\n\n\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nLes library à connaitre\n\n\n2 min\n\n\n\nlibrary\n\n\npackage\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGet and plot imdb data\n\n\n7 min\n\n\n\nscraping\n\n\nplot\n\n\nhttr\n\n\nWeb Scraping\n\n\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -68,5 +68,110 @@
     "title": "Clément Rieux",
     "section": "",
     "text": "Bonjour!\nJe m’appelle Clément, et je suis Data Scientist en France.\nJe suis un fan de R et je l’utilise quotidiennement.\nJ’ai un Master d’Economie de Toulouse School of Economis, et je travaille pour Epsilon France depuis 2019 en tant que consultant.\nMes projets personnels sont axés sur les courses de chevaux en France."
+  },
+  {
+    "objectID": "posts/fr.html",
+    "href": "posts/fr.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nLes library de bases\n\n\nLes library à connaitre\n\n\n2 min\n\n\n\nlibrary\n\n\npackage\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2023-03-tv-show-plot/en/index.html",
+    "href": "posts/2023-03-tv-show-plot/en/index.html",
+    "title": "Web scraping and tv show analysis",
+    "section": "",
+    "text": "Hello !\nWeb scraping has revolutionized the way we collect data from the internet, providing us with valuable insights that were once difficult to obtain.\nIn recent years, web scraping has become increasingly popular in the entertainment industry, particularly when it comes to gathering data on TV show ratings and reviews.\nBy using web scraping tools, it is now possible to collect large amounts of data on a wide range of TV shows and analyze the data to identify patterns and trends. In this article, we will explore how web scraping can be used to collect TV show data, and how we can use this data to gain insights into the popularity and success of different shows.\nWe will also discuss how we can visualize the data using various tools and techniques to help us better understand the information we have gathered. Whether you are a TV enthusiast, a data analyst, or simply someone interested in learning more about the power of web scraping, this article will provide you with valuable insights and practical advice."
+  },
+  {
+    "objectID": "posts/2023-03-tv-show-plot/en/index.html#where-can-i-find-the-data",
+    "href": "posts/2023-03-tv-show-plot/en/index.html#where-can-i-find-the-data",
+    "title": "Web scraping and tv show analysis",
+    "section": "Where can I find the data ?",
+    "text": "Where can I find the data ?\nActually, it’s pretty easy to find rating of tv shows. imdb provides us all the data we need.\nFor example, if I’m looking data for Breaking Bad :\n\n\n\n\n\nI can get multiples informations :\n\nEpisode Name\nRating\nNumber of votes\nDate\nSypnosis\n\nIf I’m looking at the url : https://www.imdb.com/title/tt0903747/episodes?season=1, we have :\n\ntt0903747: Alias for the serie\nepisodes?season=1: Season number"
+  },
+  {
+    "objectID": "posts/2023-03-tv-show-plot/en/index.html#how-can-i-get-the-data",
+    "href": "posts/2023-03-tv-show-plot/en/index.html#how-can-i-get-the-data",
+    "title": "Web scraping and tv show analysis",
+    "section": "How can i get the data ?",
+    "text": "How can i get the data ?\n\nLoad library\n\nlibrary(rvest) # manipulate HTML\nlibrary(stringr) # text manipulation\nlibrary(lubridate) # date manipulation\nlibrary(dplyr) # df manipulation\nlibrary(tidyr) # column manipulation\nlibrary(RColorBrewer) # color\nlibrary(ggplot2) # visualization\n\n\n\nInit the variables\n\n# Tv show title\nserie_title = 'Breaking Bad'\n\n# Seasons\ns = 5\n\n# Tv show code\ncode = 'tt0903747'\n\n# setup dataframe\ntable = data.frame()\n\n\n\nLoop to get informations for each season\nFor each season (webpage), we will get informations for each episode.\n\nGet the url\nDownload the .html page (we can also do it without downloading the page, but I prefer to retrieve the page locally\nExtract element, for this i use the extension SelectorGadget\nAppend in the dataframe\n\n\nfor(i in 1:s){\n  \n  url = paste0(\"https://www.imdb.com/title/\",code,\"/episodes?season=\",i)\n  \n  while(TRUE){\n    dl_file <- try(download.file(as.character(url), destfile = \"temp.html\", quiet=TRUE),\n                   silent=TRUE)\n    if(!is(dl_file, 'try-error')) break\n  }\n  \n  html_page <- read_html(\"temp.html\")\n  \n  saison = i\n  \n  episode <- html_page %>% \n    html_nodes(\"#episodes_content strong a\") %>% \n    html_text() %>% \n    str_replace_all(\"\\t|\\n|\", \"\")\n  \n  note <- html_page %>% \n    html_nodes(\".ipl-rating-star.small .ipl-rating-star__rating\") %>% \n    html_text() %>% \n    str_replace_all(\"\\t|\\n|\", \"\")\n  \n  vote <- html_page %>% \n    html_nodes(\".ipl-rating-star__total-votes\") %>% \n    html_text() %>% \n    str_replace_all(\"\\t|\\n|\", \"\")\n  \n  date <- html_page %>% \n    html_nodes(\".airdate\") %>% \n    html_text() %>% \n    str_replace_all(\"\\t|\\n|\", \"\") %>% \n    dmy() %>% \n    as.character()\n  \n  temp_table <- as.data.frame(cbind(saison, episode, note, vote, date))\n  table <- rbind(table,temp_table) \n  \n  file.remove('temp.html')\n  \n}\n\nPerfect ! Now we have a well table\n\n\n\n\n\nsaison\nepisode\nnote\nvote\ndate\n\n\n\n\n1\nPilot\n9.0\n(38,409)\n2010-10-09\n\n\n1\nCat’s in the Bag…\n8.6\n(28,007)\n2008-01-27\n\n\n1\n…And the Bag’s in the River\n8.7\n(27,115)\n2008-02-10\n\n\n1\nCancer Man\n8.2\n(26,142)\n2008-02-17\n\n\n1\nGray Matter\n8.3\n(25,676)\n2008-02-24\n\n\n1\nCrazy Handful of Nothin’\n9.3\n(30,176)\n2008-03-02"
+  },
+  {
+    "objectID": "posts/2023-03-tv-show-plot/en/index.html#what-can-i-do-with-the-data",
+    "href": "posts/2023-03-tv-show-plot/en/index.html#what-can-i-do-with-the-data",
+    "title": "Web scraping and tv show analysis",
+    "section": "What can I do with the data ?",
+    "text": "What can I do with the data ?\nI use the code from z3tt for his TidyTuesday plot from The Office, which I find very cool.\nFirstly, we need to compute some informations that will be used to make a graph :\n\nEpisode number\nNote by season\nRating mean\n\n\ndf_avg <-\n  table %>% \n  group_by(saison) %>% \n  mutate(episode = row_number(),\n         saison = as.numeric(saison),\n         note = as.numeric(note),\n         vote = gsub(',','',vote),\n         vote = as.numeric(gsub(\"[^\\\\d]+\", \"\", vote, perl=TRUE))\n  ) %>% \n  ungroup() %>% \n  arrange(saison, episode) %>% \n  mutate(episode_id = row_number()) %>% \n  group_by(saison) %>% \n  mutate(\n    avg = mean(note),\n    episode_mod = episode_id + (9 * saison),\n    mid = mean(episode_mod)\n  ) %>% \n  ungroup() %>% \n  mutate(saison = factor(saison))\n\nSecondly, for each season summarize the rating :\n\ndf_lines <-\n  df_avg %>% \n  group_by(saison) %>% \n  summarize(\n    start_x = min(episode_mod) -5,\n    end_x = max(episode_mod) + 5,\n    y = unique(avg)\n  ) %>% \n  pivot_longer(\n    cols = c(start_x, end_x),\n    names_to = \"type\",\n    values_to = \"x\"\n  ) %>% \n  mutate(\n    x_group = if_else(type == \"start_x\", x + .1, x - .1),\n    x_group = if_else(type == \"start_x\" & x == min(x), x_group - .1, x_group),\n    x_group = if_else(type == \"end_x\" & x == max(x), x_group + .1, x_group)\n  )\n\nThen plot :\n\nnb.cols <- s\nmycolors <- colorRampPalette(brewer.pal(8, \"Paired\"))(nb.cols)\n\ndf_avg %>%\n  ggplot(aes(episode_mod, note)) +\n  geom_hline(\n    data = tibble(y = 7:11),\n    aes(yintercept = y),\n    color = \"grey82\",\n    size = .5\n  ) +\n  geom_segment(aes(\n    xend = episode_mod,\n    yend = avg,\n    color = saison,\n    color = after_scale(colorspace::lighten(color, .2))\n  )) +\n  geom_line(data = df_lines,\n            aes(\n              x_group,\n              y,\n              color = saison,\n              color = after_scale(colorspace::darken(color, .2))\n            ),\n            size = 2.5) +\n  geom_point(aes(size = vote,\n                 color = saison)) +\n  geom_label(\n    aes(\n      mid,\n      10.2,\n      label = glue::glue(\" Saison {saison} \"),\n      color = saison,\n      color = after_scale(colorspace::darken(color, .2))\n    ),\n    show.legend = FALSE,\n    fill = NA,\n    label.padding = unit(.2, \"lines\"),\n    label.r = unit(.25, \"lines\"),\n    label.size = .5\n  )  +\n  scale_x_continuous(expand = c(.015, .015)) +\n  scale_y_continuous(\n    expand = c(.03, .03),\n    limits = c(6.5, 10.5),\n    breaks = seq(6.5, 10, by = .5),\n    sec.axis = dup_axis(name = NULL)\n  ) +\n  scale_color_manual(values = mycolors, guide = \"none\") +\n  scale_size_binned(\n    name = \"Votes per episode\",\n    range = c(.3, 6),\n    labels = function(x)\n      format(x, big.mark = \" \", scientific = FALSE)\n  ) +\n  ggtitle(serie_title) +\n  labs(x = \"\", y = \"Rating\",\n       caption = \"Visualization by Clément Rieux\") +\n  guides(\n    size = guide_bins(\n      show.limits = T,\n      direction = \"horizontal\",\n      title.position = \"top\",\n      title.hjust = .5\n    )\n  ) +\n  theme(\n    legend.position = c(.2, .085),\n    legend.key.size = unit(1, 'cm'),\n    legend.key.width = unit(2, \"lines\"),\n    legend.text = element_text(\n      angle = 60,\n      vjust = 1,\n      hjust = 1\n    ),\n    axis.ticks.x = element_blank(),\n    axis.text.x = element_blank()\n  )\n\n\n\n\nWe can also look at the evolution over time :\n\ndf_avg %>% \n  mutate(date = as.Date(date)) %>%  \n  ggplot(aes(x = date, y = note, color = note)) +\n  geom_point() +\n  scale_colour_gradient(low = \"#E84D23\", high = \"#3CDE0B\", na.value = NA) + \n  scale_x_date(date_breaks = \"3 month\", date_labels = \"%b-%Y\") + \n  theme_classic() + \n  theme(axis.text.x = element_text(angle = 70, hjust = 1)) \n\n\n\n\nNow you are able to retrieve data from imdb and do analysis yourself !\nIf you want to see all the code and examples (Stranger Things, Peaky Bliders, The Simpsons…), you can find it on my github."
+  },
+  {
+    "objectID": "posts/2023-03-top-lib/fr/index.html",
+    "href": "posts/2023-03-top-lib/fr/index.html",
+    "title": "Les library de bases",
+    "section": "",
+    "text": "Lorsqu’il s’agit de travailler avec des données, R est l’un des langages de programmation les plus populaires et les plus puissants disponibles aujourd’hui. Avec sa vaste communauté de développeurs, R propose des milliers de packages pour aider à résoudre une grande variété de problèmes de traitement et d’analyse de données. Cependant, avec autant de packages disponibles, il peut être difficile de savoir par où commencer. Dans cet article, je vais vous présenter quelques-unes des bibliothèques R les plus populaires et les plus utiles pour vous aider à démarrer dans l’analyse de données avec R. Que vous soyez un débutant ou un utilisateur chevronné de R, vous devriez trouver quelque chose d’intéressant dans cette liste."
+  },
+  {
+    "objectID": "index.html#posts-in-english",
+    "href": "index.html#posts-in-english",
+    "title": "Clément Rieux",
+    "section": "Posts in English",
+    "text": "Posts in English\n\n\n\n\n  \n\n\n\n\nWeb scraping and tv show analysis\n\n\nGet and plot imdb data\n\n\n\n\nscraping\n\n\nplot\n\n\nhttr\n\n\nWeb Scraping\n\n\n \n\n\n\n\nMar 20, 2023\n\n\nClément Rieux\n\n\n7 min\n\n\n\n\n\n\nNo matching items\n\n\n See all posts in English"
+  },
+  {
+    "objectID": "index.html#posts-en-française",
+    "href": "index.html#posts-en-française",
+    "title": "Clément Rieux",
+    "section": "Posts en Française",
+    "text": "Posts en Française\n\n\n\n\n  \n\n\n\n\nMes Library R\n\n\nLes library à connaitre\n\n\n\n\nlibrary\n\n\npacakge\n\n\n \n\n\n\n\nMar 21, 2023\n\n\nClément Rieux\n\n\n0 min\n\n\n\n\n\n\nNo matching items\n\n\n Ver posts em Português"
+  },
+  {
+    "objectID": "index.html#articles-en-français",
+    "href": "index.html#articles-en-français",
+    "title": "Clément Rieux",
+    "section": "Articles en Français",
+    "text": "Articles en Français\n\n\n\n\n  \n\n\n\n\nLes library de bases\n\n\nLes library à connaitre\n\n\n\n\nlibrary\n\n\npackage\n\n\n \n\n\n\n\nMar 21, 2023\n\n\nClément Rieux\n\n\n2 min\n\n\n\n\n\n\nNo matching items\n\n\n Voir les articles en Français"
+  },
+  {
+    "objectID": "posts/2023-03-top-lib/fr/index.html#dplyr",
+    "href": "posts/2023-03-top-lib/fr/index.html#dplyr",
+    "title": "Les library de bases",
+    "section": "dplyr",
+    "text": "dplyr\n\n\n\n\n\ndplyr est LA library à connaitre absolument ! Elle va servir à la manipulation des données.\nIl faut retenir ces fonctions :\n\nmutate(): Ajouter une nouvelle colonne à un dataframe\nselect(): Sélectionner des colonnes\nfilter(): Filtrer les lignes du dataframe\nsummarise(): Faire des agrégations de données\narrange(): Ordonne les données\n\nEn connaissant ces fonctions, on connait 70% de la manipulation de données avec R."
+  },
+  {
+    "objectID": "posts/2023-03-top-lib/fr/index.html#stringr",
+    "href": "posts/2023-03-top-lib/fr/index.html#stringr",
+    "title": "Les library de bases",
+    "section": "stringr",
+    "text": "stringr\n\n\n\n\n\nstringr est la library à connaitre lorsque l’on veut manipuler du texte.\nIl faut retenir ces fonctions :\n\nstr_detect(): Détecte la présence d’un pattern.\nstr_count(): Compte le nombre de matchs.\nstr_subset(): Extrait le texte qui contient le pattern.\nstr_locate(): Donne la position d’un pattern.\nstr_extract(): Extrait le premier pattern trouvé.\nstr_replace(): Remplace le pattern par un nouveau.\nstr_split(): Sépare du texte en plusieurs parties."
+  },
+  {
+    "objectID": "posts/2023-03-top-lib/fr/index.html#ggplot2",
+    "href": "posts/2023-03-top-lib/fr/index.html#ggplot2",
+    "title": "Les library de bases",
+    "section": "ggplot2",
+    "text": "ggplot2\n\n\n\n\n\nggplot2 est une bibliothèque de graphiques largement utilisée avec le langage de programmation R. Elle offre une grande variété de fonctionnalités pour la création de graphiques de qualité professionnelle, qui peuvent être personnalisés selon les besoins de l’utilisateur.\nggplot2 est considéré comme l’une des bibliothèques de graphiques les plus puissantes et les plus flexibles disponibles dans R, cette library peut être utilisée pour créer des graphiques complexes tout en étant simple à utiliser, notamment la gestion de l’esthétique des graphiques, la création de graphiques en couches, la gestion des échelles et des axes, ainsi que la prise en charge des facettes et de la représentation graphique de données géographiques."
+  },
+  {
+    "objectID": "posts/2023-03-top-lib/fr/index.html#leaflet",
+    "href": "posts/2023-03-top-lib/fr/index.html#leaflet",
+    "title": "Les library de bases",
+    "section": "leaflet",
+    "text": "leaflet\n\n\n\n\n\nLeaflet est une bibliothèque JavaScript très populaire pour la création de cartes interactives. Utilisée conjointement avec le langage de programmation R, elle permet la création de cartes interactives complexes et personnalisées.\nLeaflet, prend en comte de nombreux types de données géographiques, la création de cartes multi-niveaux, la personnalisation des icônes et des infobulles, ainsi que l’intégration de couches personnalisées."
+  },
+  {
+    "objectID": "posts/2023-03-top-lib/fr/index.html#lubridate",
+    "href": "posts/2023-03-top-lib/fr/index.html#lubridate",
+    "title": "Les library de bases",
+    "section": "lubridate",
+    "text": "lubridate\n\n\n\n\n\nLubridate est une bibliothèque R qui facilite la manipulation de données temporelles. Elle permet de gérer les dates et les heures avec une grande précision et une grande flexibilité. Les principales fonctionnalités de Lubridate, sont notamment la création de dates et d’heures, la gestion de différents formats de dates, la manipulation de fuseaux horaires, la conversion de dates et d’heures en différents formats de texte, ainsi que la gestion des durées."
+  },
+  {
+    "objectID": "posts/en.html",
+    "href": "posts/en.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWeb scraping and tv show analysis\n\n\nGet and plot imdb data\n\n\n7 min\n\n\n\nscraping\n\n\nplot\n\n\nhttr\n\n\nWeb Scraping\n\n\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]

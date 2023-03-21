@@ -18,6 +18,10 @@ website:
         menu:
           - text: All posts
             href: posts/index.qmd
+          - text: English
+            href: posts/en.qmd
+          - text: Français
+            href: posts/fr.qmd
       - icon: github
         href: https://www.linkedin.com/in/ClementRieux/
       - icon: envelope
