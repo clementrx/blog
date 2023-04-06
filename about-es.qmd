@@ -25,13 +25,13 @@ about:
 </center>
 
 ::: {#hero-heading}
-Hi!
+¡Buenos dias!
 
-My name is Clément, and I am Data Scientist from France.
+Mi nombre es Clément y soy científico de datos en Francia.
 
-I'm a fan of R and use it daily.
+Soy fanático de R y lo uso a diario.
 
-I have a master's degree in economics from the [Toulouse School of Economis](https://www.tse-fr.eu/), and I have been working for [Epsilon France](https://epsilon-france.com/) since 2019 as consultant.
+Tengo una maestría en economía de [Toulouse School of Economis](https://www.tse-fr.eu/), y trabajo para [Epsilon France](https://epsilon-france.com/) desde 2019 como consultor.
 
-<!-- My personal projects are about horse racing in France. -->
+<!-- Mes projets personnels sont axés sur les courses de chevaux en France. -->
 :::

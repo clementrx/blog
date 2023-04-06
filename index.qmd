@@ -55,3 +55,11 @@ toc: true
 :::
 
 <a href="../posts/fr.html"> <button type="button" class="btn btn-primary float-end btn-sm">Voir les articles en Français</button></a>
+
+<!-- ## Artículos en español -->
+
+<!-- ::: {#posts-es} -->
+
+<!-- ::: -->
+
+<!-- <a href="../posts/es.html"> <button type="button" class="btn btn-primary float-end btn-sm">Ver artículos en español</button></a> -->

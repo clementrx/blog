@@ -19,7 +19,7 @@ about:
 <center>
 
 ::: {.btn-group role="group" aria-label="About"}
-<a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a> <a href="about-fr.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Français</button></a>
+<a href="about.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">English</button></a> <a href="about-fr.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Français</button></a> <a href="about-es.html"> <button type="button" class="btn btn-primary me-md-2 btn-sm">Español</button></a>
 :::
 
 </center>
@@ -33,5 +33,5 @@ Je suis un fan de R et je l'utilise quotidiennement.
 
 J'ai un Master d'Economie de [Toulouse School of Economis](https://www.tse-fr.eu/), et je travaille pour [Epsilon France](https://epsilon-france.com/) depuis 2019 en tant que consultant.
 
-Mes projets personnels sont axés sur les courses de chevaux en France.
+<!-- Mes projets personnels sont axés sur les courses de chevaux en France. -->
 :::
