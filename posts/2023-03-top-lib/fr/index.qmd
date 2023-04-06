@@ -1,6 +1,6 @@
 ---
-title: "Les library de bases"
-subtitle: "Les library à connaitre"
+title: "Les library à connaitre"
+subtitle: "Top library R"
 draft: FALSE
 author: ["Clément Rieux"]
 categories: ["library", "package"]
