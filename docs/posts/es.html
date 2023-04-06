@@ -58,7 +58,7 @@ ul.task-list{list-style: none;}
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts .list');
+    const listingTargetEl = window.document.querySelector('#listing-posts-es .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -71,7 +71,7 @@ ul.task-list{list-style: none;}
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
+    window['quarto-listings']['listing-posts-es'] = new List('listing-posts-es', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -150,7 +150,7 @@ ul.task-list{list-style: none;}
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Filtra"><span class="quarto-category-count category-cloud-2">Filtra</span></div><div class="category" data-category="Web Scraping"><span class="quarto-category-count category-cloud-2">Web Scraping</span></div><div class="category" data-category="addins"><span class="quarto-category-count category-cloud-2">addins</span></div><div class="category" data-category="chat GPT"><span class="quarto-category-count category-cloud-2">chat GPT</span></div><div class="category" data-category="filter"><span class="quarto-category-count category-cloud-2">filter</span></div><div class="category" data-category="filtre"><span class="quarto-category-count category-cloud-2">filtre</span></div><div class="category" data-category="gpt"><span class="quarto-category-count category-cloud-2">gpt</span></div><div class="category" data-category="httr"><span class="quarto-category-count category-cloud-2">httr</span></div><div class="category" data-category="library"><span class="quarto-category-count category-cloud-3">library</span></div><div class="category" data-category="package"><span class="quarto-category-count category-cloud-3">package</span></div><div class="category" data-category="plot"><span class="quarto-category-count category-cloud-2">plot</span></div><div class="category" data-category="python"><span class="quarto-category-count category-cloud-5">python</span></div><div class="category" data-category="scraping"><span class="quarto-category-count category-cloud-2">scraping</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Filtra"><span class="quarto-category-count category-cloud-5">Filtra</span></div><div class="category" data-category="library"><span class="quarto-category-count category-cloud-5">library</span></div><div class="category" data-category="package"><span class="quarto-category-count category-cloud-5">package</span></div><div class="category" data-category="python"><span class="quarto-category-count category-cloud-5">python</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -170,11 +170,18 @@ ul.task-list{list-style: none;}
 
 </header>
 
-<div id="listing-posts" class="quarto-listing quarto-listing-container-grid">
+<div id="posts">
+
+</div>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-posts-es">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-posts-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+     <select id="listing-posts-es-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-posts-es'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
        <option value="" disabled="" selected="" hidden="">Order By</option>
        <option value="index" data-direction="asc">Default</option>
          <option value="listing-title" data-direction="asc">
@@ -227,148 +234,7 @@ Mar 21, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="library,package" data-listing-date-sort="1679353200000" data-listing-file-modified-sort="1680794288634" data-listing-reading-time-sort="2.525">
-<a href="../posts/2023-03-top-lib/fr/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../posts/2023-03-top-lib/lib.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Les library à connaitre
-</h5>
-<div class="card-subtitle listing-subtitle">
-Top library R
-</div>
-<div class="listing-reading-time card-text text-muted">
-2 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('library'); return false;">
-library
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('package'); return false;">
-package
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 21, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="scraping,plot,httr,Web Scraping" data-listing-date-sort="1679266800000" data-listing-file-modified-sort="1679408900139" data-listing-reading-time-sort="7.47">
-<a href="../posts/2023-03-tv-show-plot/en/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../posts/2023-03-tv-show-plot/en/tv.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Web scraping and tv show analysis
-</h5>
-<div class="card-subtitle listing-subtitle">
-Get and plot imdb data
-</div>
-<div class="listing-reading-time card-text text-muted">
-7 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('scraping'); return false;">
-scraping
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('plot'); return false;">
-plot
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('httr'); return false;">
-httr
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Web Scraping'); return false;">
-Web Scraping
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Mar 20, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="gpt,chat GPT,addins" data-listing-date-sort="1672527600000" data-listing-file-modified-sort="1680791326965" data-listing-reading-time-sort="1.76">
-<a href="../posts/2023-04-gpt/fr/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../posts/2023-04-gpt/fr/brain.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Utiliser Chat GPT avec R
-</h5>
-<div class="card-subtitle listing-subtitle">
-Library (gptstudio)
-</div>
-<div class="listing-reading-time card-text text-muted">
-1 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('gpt'); return false;">
-gpt
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('chat GPT'); return false;">
-chat GPT
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('addins'); return false;">
-addins
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jan 1, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="python,filter" data-listing-date-sort="1672527600000" data-listing-file-modified-sort="1680793594448" data-listing-reading-time-sort="0.61">
-<a href="../posts/2023-04-python-filter/en/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../posts/2023-04-python-filter/separate.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Filter your data with Python
-</h5>
-<div class="card-subtitle listing-subtitle">
-Selection of rows or columns
-</div>
-<div class="listing-reading-time card-text text-muted">
-0 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
-python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('filter'); return false;">
-filter
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jan 1, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="python,Filtra" data-listing-date-sort="1672527600000" data-listing-file-modified-sort="1680793757877" data-listing-reading-time-sort="0.64">
+<div class="g-col-1" data-index="1" data-categories="python,Filtra" data-listing-date-sort="1672527600000" data-listing-file-modified-sort="1680793757877" data-listing-reading-time-sort="0.64">
 <a href="../posts/2023-04-python-filter/es/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -401,49 +267,11 @@ Jan 1, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="python,filtre" data-listing-date-sort="1672527600000" data-listing-file-modified-sort="1680793389147" data-listing-reading-time-sort="0.7">
-<a href="../posts/2023-04-python-filter/fr/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="../posts/2023-04-python-filter/separate.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Filtrer ses données avec Python
-</h5>
-<div class="card-subtitle listing-subtitle">
-Sélection de lignes ou colonnes
-</div>
-<div class="listing-reading-time card-text text-muted">
-0 min
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('python'); return false;">
-python
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('filtre'); return false;">
-filtre
-</div>
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-Jan 1, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
-</div>
-
-
-
-
-</main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

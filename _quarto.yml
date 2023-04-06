@@ -22,6 +22,8 @@ website:
             href: posts/en.qmd
           - text: Français
             href: posts/fr.qmd
+          - text: Español
+            href: posts/es.qmd
       - icon: github
         href: https://www.linkedin.com/in/ClementRieux/
       - icon: envelope

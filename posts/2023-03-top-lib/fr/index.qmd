@@ -5,7 +5,7 @@ draft: FALSE
 author: ["Clément Rieux"]
 categories: ["library", "package"]
 date: "2023-03-21"
-image: "lib.jpg"
+image: "../lib.jpg"
 toc: true
 ---
 
@@ -15,7 +15,7 @@ Lorsqu'il s'agit de travailler avec des données, R est l'un des langages de pro
 
 ## dplyr
 
-![](dplyr.png){fig-align="center" width="210"}
+![](../dplyr.png){fig-align="center" width="210"}
 
 **dplyr** est LA library à connaitre absolument ! Elle va servir à la manipulation des données.
 
@@ -35,7 +35,7 @@ En connaissant ces fonctions, on connait 70% de la manipulation de données avec
 
 ## stringr
 
-![](stringr.png){fig-align="center" width="210"}
+![](../stringr.png){fig-align="center" width="210"}
 
 **stringr** est la library à connaitre lorsque l'on veut manipuler du texte.
 
@@ -57,7 +57,7 @@ Il faut retenir ces fonctions :
 
 ## ggplot2
 
-![](ggplot.png){fig-align="center" width="210"}
+![](../ggplot.png){fig-align="center" width="210"}
 
 ggplot2 est une bibliothèque de graphiques largement utilisée avec le langage de programmation R. Elle offre une grande variété de fonctionnalités pour la création de graphiques de qualité professionnelle, qui peuvent être personnalisés selon les besoins de l'utilisateur.
 
@@ -65,7 +65,7 @@ ggplot2 est considéré comme l'une des bibliothèques de graphiques les plus pu
 
 ## leaflet
 
-![](leaflet.png){fig-align="center" width="210"}
+![](../leaflet.png){fig-align="center" width="210"}
 
 Leaflet est une bibliothèque JavaScript très populaire pour la création de cartes interactives. Utilisée conjointement avec le langage de programmation R, elle permet la création de cartes interactives complexes et personnalisées.
 
@@ -73,6 +73,6 @@ Leaflet, prend en comte de nombreux types de données géographiques, la créati
 
 ## lubridate
 
-![](lubridate.png){fig-align="center" width="210"}
+![](../lubridate.png){fig-align="center" width="210"}
 
 Lubridate est une bibliothèque R qui facilite la manipulation de données temporelles. Elle permet de gérer les dates et les heures avec une grande précision et une grande flexibilité. Les principales fonctionnalités de Lubridate, sont notamment la création de dates et d'heures, la gestion de différents formats de dates, la manipulation de fuseaux horaires, la conversion de dates et d'heures en différents formats de texte, ainsi que la gestion des durées.
