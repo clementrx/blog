@@ -8,6 +8,8 @@ website:
     left: "Blog made with [Quarto](https://quarto.org/), by Clément Rieux. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/)."
     right:
       - icon: github
+        href: https://github.com/clementrx
+      - icon: linkedin
         href: https://www.linkedin.com/in/ClementRieux/
       - icon: envelope
         href: mailto:clement.rieux@yahoo.com
@@ -25,6 +27,8 @@ website:
           - text: Español
             href: posts/es.qmd
       - icon: github
+        href: https://github.com/clementrx
+      - icon: linkedin
         href: https://www.linkedin.com/in/ClementRieux/
       - icon: envelope
         href: mailto:clement.rieux@yahoo.com
