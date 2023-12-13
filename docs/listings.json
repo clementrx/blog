@@ -24,18 +24,18 @@
     ]
   },
   {
+    "listing": "/posts/en.html",
+    "items": [
+      "/posts/2023-03-tv-show-plot/en/index.html",
+      "/posts/2023-04-python-filter/en/index.html"
+    ]
+  },
+  {
     "listing": "/posts/fr.html",
     "items": [
       "/posts/2023-03-top-lib/fr/index.html",
       "/posts/2023-04-gpt/fr/index.html",
       "/posts/2023-04-python-filter/fr/index.html"
-    ]
-  },
-  {
-    "listing": "/posts/en.html",
-    "items": [
-      "/posts/2023-03-tv-show-plot/en/index.html",
-      "/posts/2023-04-python-filter/en/index.html"
     ]
   },
   {

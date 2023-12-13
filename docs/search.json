@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "about-fr.html",
+    "href": "about-fr.html",
+    "title": "Clément Rieux",
+    "section": "",
+    "text": "English  Français  Español\n\n\n\nBonjour!\nJe m’appelle Clément, et je suis Data Scientist en France.\nJe suis un fan de R et je l’utilise quotidiennement.\nJ’ai un Master d’Economie de Toulouse School of Economis, et je travaille pour EDF en tant que Data Scientist."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Clément Rieux",
@@ -7,109 +14,11 @@
     "text": "Mar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n\n See all"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Posts",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\nTop library R\n\n\n2 min\n\n\n\nlibrary\n\n\npackage\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nTop library R\n\n\n2 min\n\n\n\nlibrary\n\n\npackage\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGet and plot imdb data\n\n\n7 min\n\n\n\nscraping\n\n\nplot\n\n\nhttr\n\n\nWeb Scraping\n\n\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLibrary (gptstudio)\n\n\n1 min\n\n\n\ngpt\n\n\nchat GPT\n\n\naddins\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelection of rows or columns\n\n\n0 min\n\n\n\npython\n\n\nfilter\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSelección de filas o columnas\n\n\n0 min\n\n\n\npython\n\n\nFiltra\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSélection de lignes ou colonnes\n\n\n0 min\n\n\n\npython\n\n\nfiltre\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/2023-03-tv-show-plot/index.html",
-    "href": "posts/2023-03-tv-show-plot/index.html",
-    "title": "Web scraping and tv show analysis",
-    "section": "",
-    "text": "Hello !\nWeb scraping has revolutionized the way we collect data from the internet, providing us with valuable insights that were once difficult to obtain.\nIn recent years, web scraping has become increasingly popular in the entertainment industry, particularly when it comes to gathering data on TV show ratings and reviews.\nBy using web scraping tools, it is now possible to collect large amounts of data on a wide range of TV shows and analyze the data to identify patterns and trends. In this article, we will explore how web scraping can be used to collect TV show data, and how we can use this data to gain insights into the popularity and success of different shows.\nWe will also discuss how we can visualize the data using various tools and techniques to help us better understand the information we have gathered. Whether you are a TV enthusiast, a data analyst, or simply someone interested in learning more about the power of web scraping, this article will provide you with valuable insights and practical advice."
-  },
-  {
-    "objectID": "posts/2023-03-tv-show-plot/index.html#where-can-i-find-the-data",
-    "href": "posts/2023-03-tv-show-plot/index.html#where-can-i-find-the-data",
-    "title": "Web scraping and tv show analysis",
-    "section": "Where can I find the data ?",
-    "text": "Where can I find the data ?\nActually, it’s pretty easy to find rating of tv shows. imdb provides us all the data we need.\nFor example, if I’m looking data for Breaking Bad :\n\n\n\n\n\nI can get multiples informations :\n\nEpisode Name\nRating\nNumber of votes\nDate\nSypnosis\n\nIf I’m looking at the url : https://www.imdb.com/title/tt0903747/episodes?season=1, we have :\n\ntt0903747: Alias for the serie\nepisodes?season=1: Season number"
-  },
-  {
-    "objectID": "posts/2023-03-tv-show-plot/index.html#how-can-i-get-the-data",
-    "href": "posts/2023-03-tv-show-plot/index.html#how-can-i-get-the-data",
-    "title": "Web scraping and tv show analysis",
-    "section": "How can i get the data ?",
-    "text": "How can i get the data ?\n\nLoad library\n\nlibrary(rvest) # manipulate HTML\nlibrary(stringr) # text manipulation\nlibrary(lubridate) # date manipulation\nlibrary(dplyr) # df manipulation\nlibrary(tidyr) # column manipulation\nlibrary(RColorBrewer) # color\nlibrary(ggplot2) # visualization\n\n\n\nInit the variables\n\n# Tv show title\nserie_title = 'Breaking Bad'\n\n# Seasons\ns = 5\n\n# Tv show code\ncode = 'tt0903747'\n\n# setup dataframe\ntable = data.frame()\n\n\n\nLoop to get informations for each season\nFor each season (webpage), we will get informations for each episode.\n\nGet the url\nDownload the .html page (we can also do it without downloading the page, but I prefer to retrieve the page locally\nExtract element, for this i use the extension SelectorGadget\nAppend in the dataframe\n\n\nfor(i in 1:s){\n  \n  url = paste0(\"https://www.imdb.com/title/\",code,\"/episodes?season=\",i)\n  \n  while(TRUE){\n    dl_file <- try(download.file(as.character(url), destfile = \"temp.html\", quiet=TRUE),\n                   silent=TRUE)\n    if(!is(dl_file, 'try-error')) break\n  }\n  \n  html_page <- read_html(\"temp.html\")\n  \n  saison = i\n  \n  episode <- html_page %>% \n    html_nodes(\"#episodes_content strong a\") %>% \n    html_text() %>% \n    str_replace_all(\"\\t|\\n|\", \"\")\n  \n  note <- html_page %>% \n    html_nodes(\".ipl-rating-star.small .ipl-rating-star__rating\") %>% \n    html_text() %>% \n    str_replace_all(\"\\t|\\n|\", \"\")\n  \n  vote <- html_page %>% \n    html_nodes(\".ipl-rating-star__total-votes\") %>% \n    html_text() %>% \n    str_replace_all(\"\\t|\\n|\", \"\")\n  \n  date <- html_page %>% \n    html_nodes(\".airdate\") %>% \n    html_text() %>% \n    str_replace_all(\"\\t|\\n|\", \"\") %>% \n    dmy() %>% \n    as.character()\n  \n  temp_table <- as.data.frame(cbind(saison, episode, note, vote, date))\n  table <- rbind(table,temp_table) \n  \n  file.remove('temp.html')\n  \n}\n\nPerfect ! Now we have a well table\n\n\n\n\n\nsaison\nepisode\nnote\nvote\ndate\n\n\n\n\n1\nPilot\n9.0\n(38,406)\n2010-10-09\n\n\n1\nCat’s in the Bag…\n8.6\n(28,006)\n2008-01-27\n\n\n1\n…And the Bag’s in the River\n8.7\n(27,114)\n2008-02-10\n\n\n1\nCancer Man\n8.2\n(26,141)\n2008-02-17\n\n\n1\nGray Matter\n8.3\n(25,675)\n2008-02-24\n\n\n1\nCrazy Handful of Nothin’\n9.3\n(30,175)\n2008-03-02"
-  },
-  {
-    "objectID": "posts/2023-03-tv-show-plot/index.html#what-can-i-do-with-the-data",
-    "href": "posts/2023-03-tv-show-plot/index.html#what-can-i-do-with-the-data",
-    "title": "Web scraping and tv show analysis",
-    "section": "What can I do with the data ?",
-    "text": "What can I do with the data ?\nI use the code from z3tt for his TidyTuesday plot from The Office, which I find very cool.\nFirstly, we need to compute some informations that will be used to make a graph :\n\nEpisode number\nNote by season\nRating mean\n\n\ndf_avg <-\n  table %>% \n  group_by(saison) %>% \n  mutate(episode = row_number(),\n         saison = as.numeric(saison),\n         note = as.numeric(note),\n         vote = gsub(',','',vote),\n         vote = as.numeric(gsub(\"[^\\\\d]+\", \"\", vote, perl=TRUE))\n  ) %>% \n  ungroup() %>% \n  arrange(saison, episode) %>% \n  mutate(episode_id = row_number()) %>% \n  group_by(saison) %>% \n  mutate(\n    avg = mean(note),\n    episode_mod = episode_id + (9 * saison),\n    mid = mean(episode_mod)\n  ) %>% \n  ungroup() %>% \n  mutate(saison = factor(saison))\n\nSecondly, for each season summarize the rating :\n\ndf_lines <-\n  df_avg %>% \n  group_by(saison) %>% \n  summarize(\n    start_x = min(episode_mod) -5,\n    end_x = max(episode_mod) + 5,\n    y = unique(avg)\n  ) %>% \n  pivot_longer(\n    cols = c(start_x, end_x),\n    names_to = \"type\",\n    values_to = \"x\"\n  ) %>% \n  mutate(\n    x_group = if_else(type == \"start_x\", x + .1, x - .1),\n    x_group = if_else(type == \"start_x\" & x == min(x), x_group - .1, x_group),\n    x_group = if_else(type == \"end_x\" & x == max(x), x_group + .1, x_group)\n  )\n\nThen plot :\n\nnb.cols <- s\nmycolors <- colorRampPalette(brewer.pal(8, \"Paired\"))(nb.cols)\n\ndf_avg %>%\n  ggplot(aes(episode_mod, note)) +\n  geom_hline(\n    data = tibble(y = 7:11),\n    aes(yintercept = y),\n    color = \"grey82\",\n    size = .5\n  ) +\n  geom_segment(aes(\n    xend = episode_mod,\n    yend = avg,\n    color = saison,\n    color = after_scale(colorspace::lighten(color, .2))\n  )) +\n  geom_line(data = df_lines,\n            aes(\n              x_group,\n              y,\n              color = saison,\n              color = after_scale(colorspace::darken(color, .2))\n            ),\n            size = 2.5) +\n  geom_point(aes(size = vote,\n                 color = saison)) +\n  geom_label(\n    aes(\n      mid,\n      10.2,\n      label = glue::glue(\" Saison {saison} \"),\n      color = saison,\n      color = after_scale(colorspace::darken(color, .2))\n    ),\n    show.legend = FALSE,\n    fill = NA,\n    label.padding = unit(.2, \"lines\"),\n    label.r = unit(.25, \"lines\"),\n    label.size = .5\n  )  +\n  scale_x_continuous(expand = c(.015, .015)) +\n  scale_y_continuous(\n    expand = c(.03, .03),\n    limits = c(6.5, 10.5),\n    breaks = seq(6.5, 10, by = .5),\n    sec.axis = dup_axis(name = NULL)\n  ) +\n  scale_color_manual(values = mycolors, guide = \"none\") +\n  scale_size_binned(\n    name = \"Votes per episode\",\n    range = c(.3, 6),\n    labels = function(x)\n      format(x, big.mark = \" \", scientific = FALSE)\n  ) +\n  ggtitle(serie_title) +\n  labs(x = \"\", y = \"Rating\",\n       caption = \"Visualization by Clément Rieux\") +\n  guides(\n    size = guide_bins(\n      show.limits = T,\n      direction = \"horizontal\",\n      title.position = \"top\",\n      title.hjust = .5\n    )\n  ) +\n  theme(\n    legend.position = c(.2, .085),\n    legend.key.size = unit(1, 'cm'),\n    legend.key.width = unit(2, \"lines\"),\n    legend.text = element_text(\n      angle = 60,\n      vjust = 1,\n      hjust = 1\n    ),\n    axis.ticks.x = element_blank(),\n    axis.text.x = element_blank()\n  )\n\n\n\n\nWe can also look at the evolution over time :\n\ndf_avg %>% \n  mutate(date = as.Date(date)) %>%  \n  ggplot(aes(x = date, y = note, color = note)) +\n  geom_point() +\n  scale_colour_gradient(low = \"#E84D23\", high = \"#3CDE0B\", na.value = NA) + \n  scale_x_date(date_breaks = \"3 month\", date_labels = \"%b-%Y\") + \n  theme_classic() + \n  theme(axis.text.x = element_text(angle = 70, hjust = 1)) \n\n\n\n\nNow you are able to retrieve data from imdb and do analysis yourself !\nIf you want to see all the code and examples (Stranger Things, Peaky Bliders, The Simpsons…), you can find it on my github."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "index.html#recent-posts-articles-récents",
+    "href": "index.html#recent-posts-articles-récents",
     "title": "Clément Rieux",
     "section": "",
-    "text": "English  Français  Español\n\n\n\nHi!\nMy name is Clément, and I am Data Scientist from France.\nI’m a fan of R and use it daily.\nI have a master’s degree in economics from the Toulouse School of Economis, and I have been working for Epsilon France since 2019 as consultant."
-  },
-  {
-    "objectID": "about-fr.html",
-    "href": "about-fr.html",
-    "title": "Clément Rieux",
-    "section": "",
-    "text": "Bonjour!\nJe m’appelle Clément, et je suis Data Scientist en France.\nJe suis un fan de R et je l’utilise quotidiennement.\nJ’ai un Master d’Economie de Toulouse School of Economis, et je travaille pour Epsilon France depuis 2019 en tant que consultant."
-  },
-  {
-    "objectID": "posts/fr.html",
-    "href": "posts/fr.html",
-    "title": "Posts",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nLes library à connaitre\n\n\nTop library R\n\n\n2 min\n\n\n\nlibrary\n\n\npackage\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUtiliser Chat GPT avec R\n\n\nLibrary (gptstudio)\n\n\n1 min\n\n\n\ngpt\n\n\nchat GPT\n\n\naddins\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFiltrer ses données avec Python\n\n\nSélection de lignes ou colonnes\n\n\n0 min\n\n\n\npython\n\n\nfiltre\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/2023-03-tv-show-plot/en/index.html",
-    "href": "posts/2023-03-tv-show-plot/en/index.html",
-    "title": "Web scraping and tv show analysis",
-    "section": "",
-    "text": "Hello !\nWeb scraping has revolutionized the way we collect data from the internet, providing us with valuable insights that were once difficult to obtain.\nIn recent years, web scraping has become increasingly popular in the entertainment industry, particularly when it comes to gathering data on TV show ratings and reviews.\nBy using web scraping tools, it is now possible to collect large amounts of data on a wide range of TV shows and analyze the data to identify patterns and trends. In this article, we will explore how web scraping can be used to collect TV show data, and how we can use this data to gain insights into the popularity and success of different shows.\nWe will also discuss how we can visualize the data using various tools and techniques to help us better understand the information we have gathered. Whether you are a TV enthusiast, a data analyst, or simply someone interested in learning more about the power of web scraping, this article will provide you with valuable insights and practical advice."
-  },
-  {
-    "objectID": "posts/2023-03-tv-show-plot/en/index.html#where-can-i-find-the-data",
-    "href": "posts/2023-03-tv-show-plot/en/index.html#where-can-i-find-the-data",
-    "title": "Web scraping and tv show analysis",
-    "section": "Where can I find the data ?",
-    "text": "Where can I find the data ?\nActually, it’s pretty easy to find rating of tv shows. imdb provides us all the data we need.\nFor example, if I’m looking data for Breaking Bad :\n\n\n\n\n\nI can get multiples informations :\n\nEpisode Name\nRating\nNumber of votes\nDate\nSypnosis\n\nIf I’m looking at the url : https://www.imdb.com/title/tt0903747/episodes?season=1, we have :\n\ntt0903747: Alias for the serie\nepisodes?season=1: Season number"
-  },
-  {
-    "objectID": "posts/2023-03-tv-show-plot/en/index.html#how-can-i-get-the-data",
-    "href": "posts/2023-03-tv-show-plot/en/index.html#how-can-i-get-the-data",
-    "title": "Web scraping and tv show analysis",
-    "section": "How can i get the data ?",
-    "text": "How can i get the data ?\n\nLoad library\n\nlibrary(rvest) # manipulate HTML\nlibrary(stringr) # text manipulation\nlibrary(lubridate) # date manipulation\nlibrary(dplyr) # df manipulation\nlibrary(tidyr) # column manipulation\nlibrary(RColorBrewer) # color\nlibrary(ggplot2) # visualization\n\n\n\nInit the variables\n\n# Tv show title\nserie_title = 'Breaking Bad'\n\n# Seasons\ns = 5\n\n# Tv show code\ncode = 'tt0903747'\n\n# setup dataframe\ntable = data.frame()\n\n\n\nLoop to get informations for each season\nFor each season (webpage), we will get informations for each episode.\n\nGet the url\nDownload the .html page (we can also do it without downloading the page, but I prefer to retrieve the page locally\nExtract element, for this i use the extension SelectorGadget\nAppend in the dataframe\n\n\nfor(i in 1:s){\n  \n  url = paste0(\"https://www.imdb.com/title/\",code,\"/episodes?season=\",i)\n  \n  while(TRUE){\n    dl_file <- try(download.file(as.character(url), destfile = \"temp.html\", quiet=TRUE),\n                   silent=TRUE)\n    if(!is(dl_file, 'try-error')) break\n  }\n  \n  html_page <- read_html(\"temp.html\")\n  \n  saison = i\n  \n  episode <- html_page %>% \n    html_nodes(\"#episodes_content strong a\") %>% \n    html_text() %>% \n    str_replace_all(\"\\t|\\n|\", \"\")\n  \n  note <- html_page %>% \n    html_nodes(\".ipl-rating-star.small .ipl-rating-star__rating\") %>% \n    html_text() %>% \n    str_replace_all(\"\\t|\\n|\", \"\")\n  \n  vote <- html_page %>% \n    html_nodes(\".ipl-rating-star__total-votes\") %>% \n    html_text() %>% \n    str_replace_all(\"\\t|\\n|\", \"\")\n  \n  date <- html_page %>% \n    html_nodes(\".airdate\") %>% \n    html_text() %>% \n    str_replace_all(\"\\t|\\n|\", \"\") %>% \n    dmy() %>% \n    as.character()\n  \n  temp_table <- as.data.frame(cbind(saison, episode, note, vote, date))\n  table <- rbind(table,temp_table) \n  \n  file.remove('temp.html')\n  \n}\n\nPerfect ! Now we have a well table\n\n\n\n\n\nsaison\nepisode\nnote\nvote\ndate\n\n\n\n\n1\nPilot\n9.0\n(38,409)\n2010-10-09\n\n\n1\nCat’s in the Bag…\n8.6\n(28,007)\n2008-01-27\n\n\n1\n…And the Bag’s in the River\n8.7\n(27,115)\n2008-02-10\n\n\n1\nCancer Man\n8.2\n(26,142)\n2008-02-17\n\n\n1\nGray Matter\n8.3\n(25,676)\n2008-02-24\n\n\n1\nCrazy Handful of Nothin’\n9.3\n(30,176)\n2008-03-02"
-  },
-  {
-    "objectID": "posts/2023-03-tv-show-plot/en/index.html#what-can-i-do-with-the-data",
-    "href": "posts/2023-03-tv-show-plot/en/index.html#what-can-i-do-with-the-data",
-    "title": "Web scraping and tv show analysis",
-    "section": "What can I do with the data ?",
-    "text": "What can I do with the data ?\nI use the code from z3tt for his TidyTuesday plot from The Office, which I find very cool.\nFirstly, we need to compute some informations that will be used to make a graph :\n\nEpisode number\nNote by season\nRating mean\n\n\ndf_avg <-\n  table %>% \n  group_by(saison) %>% \n  mutate(episode = row_number(),\n         saison = as.numeric(saison),\n         note = as.numeric(note),\n         vote = gsub(',','',vote),\n         vote = as.numeric(gsub(\"[^\\\\d]+\", \"\", vote, perl=TRUE))\n  ) %>% \n  ungroup() %>% \n  arrange(saison, episode) %>% \n  mutate(episode_id = row_number()) %>% \n  group_by(saison) %>% \n  mutate(\n    avg = mean(note),\n    episode_mod = episode_id + (9 * saison),\n    mid = mean(episode_mod)\n  ) %>% \n  ungroup() %>% \n  mutate(saison = factor(saison))\n\nSecondly, for each season summarize the rating :\n\ndf_lines <-\n  df_avg %>% \n  group_by(saison) %>% \n  summarize(\n    start_x = min(episode_mod) -5,\n    end_x = max(episode_mod) + 5,\n    y = unique(avg)\n  ) %>% \n  pivot_longer(\n    cols = c(start_x, end_x),\n    names_to = \"type\",\n    values_to = \"x\"\n  ) %>% \n  mutate(\n    x_group = if_else(type == \"start_x\", x + .1, x - .1),\n    x_group = if_else(type == \"start_x\" & x == min(x), x_group - .1, x_group),\n    x_group = if_else(type == \"end_x\" & x == max(x), x_group + .1, x_group)\n  )\n\nThen plot :\n\nnb.cols <- s\nmycolors <- colorRampPalette(brewer.pal(8, \"Paired\"))(nb.cols)\n\ndf_avg %>%\n  ggplot(aes(episode_mod, note)) +\n  geom_hline(\n    data = tibble(y = 7:11),\n    aes(yintercept = y),\n    color = \"grey82\",\n    size = .5\n  ) +\n  geom_segment(aes(\n    xend = episode_mod,\n    yend = avg,\n    color = saison,\n    color = after_scale(colorspace::lighten(color, .2))\n  )) +\n  geom_line(data = df_lines,\n            aes(\n              x_group,\n              y,\n              color = saison,\n              color = after_scale(colorspace::darken(color, .2))\n            ),\n            size = 2.5) +\n  geom_point(aes(size = vote,\n                 color = saison)) +\n  geom_label(\n    aes(\n      mid,\n      10.2,\n      label = glue::glue(\" Saison {saison} \"),\n      color = saison,\n      color = after_scale(colorspace::darken(color, .2))\n    ),\n    show.legend = FALSE,\n    fill = NA,\n    label.padding = unit(.2, \"lines\"),\n    label.r = unit(.25, \"lines\"),\n    label.size = .5\n  )  +\n  scale_x_continuous(expand = c(.015, .015)) +\n  scale_y_continuous(\n    expand = c(.03, .03),\n    limits = c(6.5, 10.5),\n    breaks = seq(6.5, 10, by = .5),\n    sec.axis = dup_axis(name = NULL)\n  ) +\n  scale_color_manual(values = mycolors, guide = \"none\") +\n  scale_size_binned(\n    name = \"Votes per episode\",\n    range = c(.3, 6),\n    labels = function(x)\n      format(x, big.mark = \" \", scientific = FALSE)\n  ) +\n  ggtitle(serie_title) +\n  labs(x = \"\", y = \"Rating\",\n       caption = \"Visualization by Clément Rieux\") +\n  guides(\n    size = guide_bins(\n      show.limits = T,\n      direction = \"horizontal\",\n      title.position = \"top\",\n      title.hjust = .5\n    )\n  ) +\n  theme(\n    legend.position = c(.2, .085),\n    legend.key.size = unit(1, 'cm'),\n    legend.key.width = unit(2, \"lines\"),\n    legend.text = element_text(\n      angle = 60,\n      vjust = 1,\n      hjust = 1\n    ),\n    axis.ticks.x = element_blank(),\n    axis.text.x = element_blank()\n  )\n\n\n\n\nWe can also look at the evolution over time :\n\ndf_avg %>% \n  mutate(date = as.Date(date)) %>%  \n  ggplot(aes(x = date, y = note, color = note)) +\n  geom_point() +\n  scale_colour_gradient(low = \"#E84D23\", high = \"#3CDE0B\", na.value = NA) + \n  scale_x_date(date_breaks = \"3 month\", date_labels = \"%b-%Y\") + \n  theme_classic() + \n  theme(axis.text.x = element_text(angle = 70, hjust = 1)) \n\n\n\n\nNow you are able to retrieve data from imdb and do analysis yourself !\nIf you want to see all the code and examples (Stranger Things, Peaky Bliders, The Simpsons…), you can find it on my github."
-  },
-  {
-    "objectID": "posts/2023-03-top-lib/fr/index.html",
-    "href": "posts/2023-03-top-lib/fr/index.html",
-    "title": "Les library à connaitre",
-    "section": "",
-    "text": "Lorsqu’il s’agit de travailler avec des données, R est l’un des langages de programmation les plus populaires et les plus puissants disponibles aujourd’hui. Avec sa vaste communauté de développeurs, R propose des milliers de packages pour aider à résoudre une grande variété de problèmes de traitement et d’analyse de données. Cependant, avec autant de packages disponibles, il peut être difficile de savoir par où commencer. Dans cet article, je vais vous présenter quelques-unes des bibliothèques R les plus populaires et les plus utiles pour vous aider à démarrer dans l’analyse de données avec R. Que vous soyez un débutant ou un utilisateur chevronné de R, vous devriez trouver quelque chose d’intéressant dans cette liste."
+    "text": "Mar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n\n See all"
   },
   {
     "objectID": "index.html#posts-in-english",
@@ -119,18 +28,60 @@
     "text": "Posts in English\n\n\n\n\n  \n\n\n\n\nWeb scraping and tv show analysis\n\n\nGet and plot imdb data\n\n\n\n\nscraping\n\n\nplot\n\n\nhttr\n\n\nWeb Scraping\n\n\n \n\n\n\n\nMar 20, 2023\n\n\nClément Rieux\n\n\n8 min\n\n\n\n\n\n\n  \n\n\n\n\nFilter your data with Python\n\n\nSelection of rows or columns\n\n\n\n\npython\n\n\nfilter\n\n\n \n\n\n\n\nJan 1, 2023\n\n\nClément Rieux\n\n\n1 min\n\n\n\n\n\n\nNo matching items\n\n\n See all posts in English"
   },
   {
-    "objectID": "index.html#posts-en-française",
-    "href": "index.html#posts-en-française",
-    "title": "Clément Rieux",
-    "section": "Posts en Française",
-    "text": "Posts en Française\n\n\n\n\n  \n\n\n\n\nMes Library R\n\n\nLes library à connaitre\n\n\n\n\nlibrary\n\n\npacakge\n\n\n \n\n\n\n\nMar 21, 2023\n\n\nClément Rieux\n\n\n0 min\n\n\n\n\n\n\nNo matching items\n\n\n Ver posts em Português"
-  },
-  {
     "objectID": "index.html#articles-en-français",
     "href": "index.html#articles-en-français",
     "title": "Clément Rieux",
     "section": "Articles en Français",
     "text": "Articles en Français\n\n\n\n\n  \n\n\n\n\nLes library à connaitre\n\n\nTop library R\n\n\n\n\nlibrary\n\n\npackage\n\n\n \n\n\n\n\nMar 21, 2023\n\n\nClément Rieux\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nUtiliser Chat GPT avec R\n\n\nLibrary (gptstudio)\n\n\n\n\ngpt\n\n\nchat GPT\n\n\naddins\n\n\n \n\n\n\n\nJan 1, 2023\n\n\nClément Rieux\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nFiltrer ses données avec Python\n\n\nSélection de lignes ou colonnes\n\n\n\n\npython\n\n\nfiltre\n\n\n \n\n\n\n\nJan 1, 2023\n\n\nClément Rieux\n\n\n1 min\n\n\n\n\n\n\nNo matching items\n\n\n Voir les articles en Français"
+  },
+  {
+    "objectID": "index.html#artículos-en-español",
+    "href": "index.html#artículos-en-español",
+    "title": "Clément Rieux",
+    "section": "Artículos en español",
+    "text": "Artículos en español\n\n\n\n\n  \n\n\n\n\nLibrary para saber\n\n\nTop library R\n\n\n\n\nlibrary\n\n\npackage\n\n\n \n\n\n\n\nMar 21, 2023\n\n\nClément Rieux\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nFiltra tus datos con Python\n\n\nSelección de filas o columnas\n\n\n\n\npython\n\n\nFiltra\n\n\n \n\n\n\n\nJan 1, 2023\n\n\nClément Rieux\n\n\n1 min\n\n\n\n\n\n\nNo matching items\n\n\n Ver artículos en español"
+  },
+  {
+    "objectID": "posts/2023-04-gpt/fr/index.html",
+    "href": "posts/2023-04-gpt/fr/index.html",
+    "title": "Utiliser Chat GPT avec R",
+    "section": "",
+    "text": "L’utilisation de l’intelligence artificielle (IA) pour diverses applications est en constante évolution ces dernières années. Avec l’émergence de la génération de langage naturel assistée par l’IA, il est maintenant possible de développer des systèmes qui peuvent comprendre et générer du texte de manière similaire à un humain. Dans cette optique, l’API Chat GPT développée par OpenAI est devenue une ressource précieuse pour les développeurs qui cherchent à incorporer cette technologie dans leurs projets.\nEn utilisant la library gptstudio, les développeurs peuvent facilement accéder à l’API Chat GPT et utiliser cette puissante technologie pour améliorer leurs applications. Dans cet article, nous allons explorer l’utilisation de la bibliothèque pour faire appel à l’API Chat GPT et discuter des avantages qu’elle peut apporter aux projets de développement de langage naturel."
+  },
+  {
+    "objectID": "posts/2023-04-gpt/fr/index.html#introduction",
+    "href": "posts/2023-04-gpt/fr/index.html#introduction",
+    "title": "Utiliser Chat GPT avec R",
+    "section": "",
+    "text": "L’utilisation de l’intelligence artificielle (IA) pour diverses applications est en constante évolution ces dernières années. Avec l’émergence de la génération de langage naturel assistée par l’IA, il est maintenant possible de développer des systèmes qui peuvent comprendre et générer du texte de manière similaire à un humain. Dans cette optique, l’API Chat GPT développée par OpenAI est devenue une ressource précieuse pour les développeurs qui cherchent à incorporer cette technologie dans leurs projets.\nEn utilisant la library gptstudio, les développeurs peuvent facilement accéder à l’API Chat GPT et utiliser cette puissante technologie pour améliorer leurs applications. Dans cet article, nous allons explorer l’utilisation de la bibliothèque pour faire appel à l’API Chat GPT et discuter des avantages qu’elle peut apporter aux projets de développement de langage naturel."
+  },
+  {
+    "objectID": "posts/2023-04-gpt/fr/index.html#installation",
+    "href": "posts/2023-04-gpt/fr/index.html#installation",
+    "title": "Utiliser Chat GPT avec R",
+    "section": "Installation",
+    "text": "Installation\n\ninstall.packages(\"gptstudio\")\n\nUne fois la library installée, nous avons besoin d’une API Key qu’on va récupérer sur notre compte OpenAI.\nCette API Key on peut la définir manuellement :\n\nSys.setenv(OPENAI_API_KEY = \"&lt;APIKEY&gt;\")\n\nOu l’ajouter dans notre fichier .Renvion en ouvrant l’éditeur :\n\nrequire(usethis)\nedit_r_environ(scope = \"project\")\n\nPuis en ajoutant notre Key :\n\nOPENAI_API_KEY= \"&lt;APIKEY&gt;\""
+  },
+  {
+    "objectID": "posts/2023-04-gpt/fr/index.html#utilisation",
+    "href": "posts/2023-04-gpt/fr/index.html#utilisation",
+    "title": "Utiliser Chat GPT avec R",
+    "section": "Utilisation",
+    "text": "Utilisation\n\nlibrary(gptstudio)\n\nLes addins de cette library permettent plusieurs choses\n\nEchanger directement avec Chat GPT\nModifier du code directement en source selon ce que l’on souhaite\nVérifier la grammaire\nCommenter du code dans une sélection\n\nPetit bémol, le package est configuré en anglais, donc quand j’utilise l’addin des commentaires (très pratique), il va me commenter le code en Anglais. Comment faire si je veux l’avoir en Français ou dans une autre langue ?\nOn va donc éditer le package :\n\ntrace(addin_comment_code, edit = T)\n\nCela va nous ouvrir une popup :\n\n\n\n\n\nEt il nous suffit de remplacer la ligne de l’appel à l’API par un input en Français ou la langue désirée :\n\n\n\n\n\n\nA noter que le changement est temporaire (uniquement le temps de la session R). Pour changer définitivement la fonction il faut prendre la source du package, modifier le code et installer le package avec sa propre source, et/ou contribuer au développement du package.\n\nUne fois que tout est configuré, il ne reste plus qu’à coder (ou regarder la library coder pour nous)."
+  },
+  {
+    "objectID": "posts/2023-03-top-lib/fr/index.html",
+    "href": "posts/2023-03-top-lib/fr/index.html",
+    "title": "Les library à connaitre",
+    "section": "",
+    "text": "Lorsqu’il s’agit de travailler avec des données, R est l’un des langages de programmation les plus populaires et les plus puissants disponibles aujourd’hui. Avec sa vaste communauté de développeurs, R propose des milliers de packages pour aider à résoudre une grande variété de problèmes de traitement et d’analyse de données. Cependant, avec autant de packages disponibles, il peut être difficile de savoir par où commencer. Dans cet article, je vais vous présenter quelques-unes des bibliothèques R les plus populaires et les plus utiles pour vous aider à démarrer dans l’analyse de données avec R. Que vous soyez un débutant ou un utilisateur chevronné de R, vous devriez trouver quelque chose d’intéressant dans cette liste."
+  },
+  {
+    "objectID": "posts/2023-03-top-lib/fr/index.html#introduction",
+    "href": "posts/2023-03-top-lib/fr/index.html#introduction",
+    "title": "Les library à connaitre",
+    "section": "",
+    "text": "Lorsqu’il s’agit de travailler avec des données, R est l’un des langages de programmation les plus populaires et les plus puissants disponibles aujourd’hui. Avec sa vaste communauté de développeurs, R propose des milliers de packages pour aider à résoudre une grande variété de problèmes de traitement et d’analyse de données. Cependant, avec autant de packages disponibles, il peut être difficile de savoir par où commencer. Dans cet article, je vais vous présenter quelques-unes des bibliothèques R les plus populaires et les plus utiles pour vous aider à démarrer dans l’analyse de données avec R. Que vous soyez un débutant ou un utilisateur chevronné de R, vous devriez trouver quelque chose d’intéressant dans cette liste."
   },
   {
     "objectID": "posts/2023-03-top-lib/fr/index.html#dplyr",
@@ -168,64 +119,50 @@
     "text": "lubridate\n\n\n\n\n\nLubridate est une bibliothèque R qui facilite la manipulation de données temporelles. Elle permet de gérer les dates et les heures avec une grande précision et une grande flexibilité. Les principales fonctionnalités de Lubridate, sont notamment la création de dates et d’heures, la gestion de différents formats de dates, la manipulation de fuseaux horaires, la conversion de dates et d’heures en différents formats de texte, ainsi que la gestion des durées."
   },
   {
-    "objectID": "posts/en.html",
-    "href": "posts/en.html",
-    "title": "Posts",
+    "objectID": "posts/2023-03-tv-show-plot/en/index.html",
+    "href": "posts/2023-03-tv-show-plot/en/index.html",
+    "title": "Web scraping and tv show analysis",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWeb scraping and tv show analysis\n\n\nGet and plot imdb data\n\n\n7 min\n\n\n\nscraping\n\n\nplot\n\n\nhttr\n\n\nWeb Scraping\n\n\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFilter your data with Python\n\n\nSelection of rows or columns\n\n\n0 min\n\n\n\npython\n\n\nfilter\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Hello !\nWeb scraping has revolutionized the way we collect data from the internet, providing us with valuable insights that were once difficult to obtain.\nIn recent years, web scraping has become increasingly popular in the entertainment industry, particularly when it comes to gathering data on TV show ratings and reviews.\nBy using web scraping tools, it is now possible to collect large amounts of data on a wide range of TV shows and analyze the data to identify patterns and trends. In this article, we will explore how web scraping can be used to collect TV show data, and how we can use this data to gain insights into the popularity and success of different shows.\nWe will also discuss how we can visualize the data using various tools and techniques to help us better understand the information we have gathered. Whether you are a TV enthusiast, a data analyst, or simply someone interested in learning more about the power of web scraping, this article will provide you with valuable insights and practical advice."
   },
   {
-    "objectID": "about-es.html",
-    "href": "about-es.html",
-    "title": "Clément Rieux",
+    "objectID": "posts/2023-03-tv-show-plot/en/index.html#introduction",
+    "href": "posts/2023-03-tv-show-plot/en/index.html#introduction",
+    "title": "Web scraping and tv show analysis",
     "section": "",
-    "text": "¡Buenos dias!\nMi nombre es Clément y soy científico de datos en Francia.\nSoy fanático de R y lo uso a diario.\nTengo una maestría en economía de Toulouse School of Economis, y trabajo para Epsilon France desde 2019 como consultor."
+    "text": "Hello !\nWeb scraping has revolutionized the way we collect data from the internet, providing us with valuable insights that were once difficult to obtain.\nIn recent years, web scraping has become increasingly popular in the entertainment industry, particularly when it comes to gathering data on TV show ratings and reviews.\nBy using web scraping tools, it is now possible to collect large amounts of data on a wide range of TV shows and analyze the data to identify patterns and trends. In this article, we will explore how web scraping can be used to collect TV show data, and how we can use this data to gain insights into the popularity and success of different shows.\nWe will also discuss how we can visualize the data using various tools and techniques to help us better understand the information we have gathered. Whether you are a TV enthusiast, a data analyst, or simply someone interested in learning more about the power of web scraping, this article will provide you with valuable insights and practical advice."
   },
   {
-    "objectID": "posts/2023-04-gpt/fr/index.html",
-    "href": "posts/2023-04-gpt/fr/index.html",
-    "title": "Utiliser Chat GPT avec R",
-    "section": "",
-    "text": "L’utilisation de l’intelligence artificielle (IA) pour diverses applications est en constante évolution ces dernières années. Avec l’émergence de la génération de langage naturel assistée par l’IA, il est maintenant possible de développer des systèmes qui peuvent comprendre et générer du texte de manière similaire à un humain. Dans cette optique, l’API Chat GPT développée par OpenAI est devenue une ressource précieuse pour les développeurs qui cherchent à incorporer cette technologie dans leurs projets.\nEn utilisant la library gptstudio, les développeurs peuvent facilement accéder à l’API Chat GPT et utiliser cette puissante technologie pour améliorer leurs applications. Dans cet article, nous allons explorer l’utilisation de la bibliothèque pour faire appel à l’API Chat GPT et discuter des avantages qu’elle peut apporter aux projets de développement de langage naturel."
+    "objectID": "posts/2023-03-tv-show-plot/en/index.html#where-can-i-find-the-data",
+    "href": "posts/2023-03-tv-show-plot/en/index.html#where-can-i-find-the-data",
+    "title": "Web scraping and tv show analysis",
+    "section": "Where can I find the data ?",
+    "text": "Where can I find the data ?\nActually, it’s pretty easy to find rating of tv shows. imdb provides us all the data we need.\nFor example, if I’m looking data for Breaking Bad :\n\n\n\n\n\nI can get multiples informations :\n\nEpisode Name\nRating\nNumber of votes\nDate\nSypnosis\n\nIf I’m looking at the url : https://www.imdb.com/title/tt0903747/episodes?season=1, we have :\n\ntt0903747: Alias for the serie\nepisodes?season=1: Season number"
   },
   {
-    "objectID": "posts/2023-04-gpt/fr/index.html#installation",
-    "href": "posts/2023-04-gpt/fr/index.html#installation",
-    "title": "Utiliser Chat GPT avec R",
-    "section": "Installation",
-    "text": "Installation\n\ninstall.packages(\"gptstudio\")\n\nUne fois la library installée, nous avons besoin d’une API Key qu’on va récupérer sur notre compte OpenAI.\nCette API Key on peut la définir manuellement :\n\nSys.setenv(OPENAI_API_KEY = \"<APIKEY>\")\n\nOu l’ajouter dans notre fichier .Renvion en ouvrant l’éditeur :\n\nrequire(usethis)\nedit_r_environ(scope = \"project\")\n\nPuis en ajoutant notre Key :\n\nOPENAI_API_KEY= \"<APIKEY>\""
+    "objectID": "posts/2023-03-tv-show-plot/en/index.html#how-can-i-get-the-data",
+    "href": "posts/2023-03-tv-show-plot/en/index.html#how-can-i-get-the-data",
+    "title": "Web scraping and tv show analysis",
+    "section": "How can i get the data ?",
+    "text": "How can i get the data ?\n\nLoad library\n\nlibrary(rvest) # manipulate HTML\nlibrary(stringr) # text manipulation\nlibrary(lubridate) # date manipulation\nlibrary(dplyr) # df manipulation\nlibrary(tidyr) # column manipulation\nlibrary(RColorBrewer) # color\nlibrary(ggplot2) # visualization\n\n\n\nInit the variables\n\n# Tv show title\nserie_title = 'Breaking Bad'\n\n# Seasons\ns = 5\n\n# Tv show code\ncode = 'tt0903747'\n\n# setup dataframe\ntable = data.frame()\n\n\n\nLoop to get informations for each season\nFor each season (webpage), we will get informations for each episode.\n\nGet the url\nDownload the .html page (we can also do it without downloading the page, but I prefer to retrieve the page locally\nExtract element, for this i use the extension SelectorGadget\nAppend in the dataframe\n\n\nfor(i in 1:s){\n  \n  url = paste0(\"https://www.imdb.com/title/\",code,\"/episodes?season=\",i)\n  \n  while(TRUE){\n    dl_file &lt;- try(download.file(as.character(url), destfile = \"temp.html\", quiet=TRUE),\n                   silent=TRUE)\n    if(!is(dl_file, 'try-error')) break\n  }\n  \n  html_page &lt;- read_html(\"temp.html\")\n  \n  saison = i\n  \n  episode &lt;- html_page %&gt;% \n    html_nodes(\"#episodes_content strong a\") %&gt;% \n    html_text() %&gt;% \n    str_replace_all(\"\\t|\\n|\", \"\")\n  \n  note &lt;- html_page %&gt;% \n    html_nodes(\".ipl-rating-star.small .ipl-rating-star__rating\") %&gt;% \n    html_text() %&gt;% \n    str_replace_all(\"\\t|\\n|\", \"\")\n  \n  vote &lt;- html_page %&gt;% \n    html_nodes(\".ipl-rating-star__total-votes\") %&gt;% \n    html_text() %&gt;% \n    str_replace_all(\"\\t|\\n|\", \"\")\n  \n  date &lt;- html_page %&gt;% \n    html_nodes(\".airdate\") %&gt;% \n    html_text() %&gt;% \n    str_replace_all(\"\\t|\\n|\", \"\") %&gt;% \n    dmy() %&gt;% \n    as.character()\n  \n  temp_table &lt;- as.data.frame(cbind(saison, episode, note, vote, date))\n  table &lt;- rbind(table,temp_table) \n  \n  file.remove('temp.html')\n  \n}\n\nPerfect ! Now we have a well table\n\n\n\n\n\nsaison\nepisode\nnote\nvote\ndate\n\n\n\n\n1\nPilot\n9.0\n(38,409)\n2010-10-09\n\n\n1\nCat’s in the Bag…\n8.6\n(28,007)\n2008-01-27\n\n\n1\n…And the Bag’s in the River\n8.7\n(27,115)\n2008-02-10\n\n\n1\nCancer Man\n8.2\n(26,142)\n2008-02-17\n\n\n1\nGray Matter\n8.3\n(25,676)\n2008-02-24\n\n\n1\nCrazy Handful of Nothin’\n9.3\n(30,176)\n2008-03-02"
   },
   {
-    "objectID": "posts/2023-04-gpt/fr/index.html#utilisation",
-    "href": "posts/2023-04-gpt/fr/index.html#utilisation",
-    "title": "Utiliser Chat GPT avec R",
-    "section": "Utilisation",
-    "text": "Utilisation\n\nlibrary(gptstudio)\n\nLes addins de cette library permettent plusieurs choses\n\nEchanger directement avec Chat GPT\nModifier du code directement en source selon ce que l’on souhaite\nVérifier la grammaire\nCommenter du code dans une sélection\n\nPetit bémol, le package est configuré en anglais, donc quand j’utilise l’addin des commentaires (très pratique), il va me commenter le code en Anglais. Comment faire si je veux l’avoir en Français ou dans une autre langue ?\nOn va donc éditer le package :\n\ntrace(addin_comment_code, edit = T)\n\nCela va nous ouvrir une popup :\n\n\n\n\n\nEt il nous suffit de remplacer la ligne de l’appel à l’API par un input en Français ou la langue désirée :\n\n\n\n\n\n\nA noter que le changement est temporaire (uniquement le temps de la session R). Pour changer définitivement la fonction il faut prendre la source du package, modifier le code et installer le package avec sa propre source, et/ou contribuer au développement du package.\n\nUne fois que tout est configuré, il ne reste plus qu’à coder (ou regarder la library coder pour nous)."
-  },
-  {
-    "objectID": "posts/2023-04-python-filter/fr/index.html",
-    "href": "posts/2023-04-python-filter/fr/index.html",
-    "title": "Filtrer ses données avec Python",
-    "section": "",
-    "text": "Le but de ce tutoriel est de comprendre rapidement comment filtrer des données avec Python."
-  },
-  {
-    "objectID": "posts/2023-04-python-filter/fr/index.html#données",
-    "href": "posts/2023-04-python-filter/fr/index.html#données",
-    "title": "Filtrer ses données avec Python",
-    "section": "Données",
-    "text": "Données\n\nimport pandas as pd\n\nnoms = ['Jean', 'Lucie', 'Pierre', 'Marie', 'Antoine', 'Sophie']\nages = [25, 30, 20, 40, 35, 28]\nvilles = ['Paris', 'Lyon', 'Marseille', 'Toulouse', 'Bordeaux', 'Nantes']\ndf = pd.DataFrame({'Nom': noms, 'Age': ages, 'Ville': villes})\n\nprint(df)\n\n       Nom  Age      Ville\n0     Jean   25      Paris\n1    Lucie   30       Lyon\n2   Pierre   20  Marseille\n3    Marie   40   Toulouse\n4  Antoine   35   Bordeaux\n5   Sophie   28     Nantes"
-  },
-  {
-    "objectID": "posts/2023-04-python-filter/fr/index.html#filtres",
-    "href": "posts/2023-04-python-filter/fr/index.html#filtres",
-    "title": "Filtrer ses données avec Python",
-    "section": "Filtres",
-    "text": "Filtres\nFiltrer les lignes pour les personnes âgées de moins de 30 ans :\n\ndf_30 = df[df['Age'] < 30]\nprint(df_30)\n\n      Nom  Age      Ville\n0    Jean   25      Paris\n2  Pierre   20  Marseille\n5  Sophie   28     Nantes\n\n\nSélection des lignes pour les personnes de moins de 30 ans habitant à Nantes ou Paris :\n\ndf_filtre = df[(df['Age'] < 30) & ((df['Ville'] == 'Nantes') | (df['Ville'] == 'Paris'))]\n\nprint(df_filtre)\n\n      Nom  Age   Ville\n0    Jean   25   Paris\n5  Sophie   28  Nantes\n\n\nFiltrer les colonnes pour les noms et les villes uniquement :\n\ndf_name_city = df[['Nom', 'Ville']]\nprint(df_name_city)\n\n       Nom      Ville\n0     Jean      Paris\n1    Lucie       Lyon\n2   Pierre  Marseille\n3    Marie   Toulouse\n4  Antoine   Bordeaux\n5   Sophie     Nantes\n\n\nRécupération du nom et de l’âge des personnes de moins de 30 ans qui habitent à Nantes ou Paris :\n\nfiltre = (df['Age'] < 30) & ((df['Ville'] == 'Nantes') | (df['Ville'] == 'Paris'))\ndf_filtre = df.loc[filtre, ['Nom', 'Age']]\n\nprint(df_filtre)\n\n      Nom  Age\n0    Jean   25\n5  Sophie   28"
+    "objectID": "posts/2023-03-tv-show-plot/en/index.html#what-can-i-do-with-the-data",
+    "href": "posts/2023-03-tv-show-plot/en/index.html#what-can-i-do-with-the-data",
+    "title": "Web scraping and tv show analysis",
+    "section": "What can I do with the data ?",
+    "text": "What can I do with the data ?\nI use the code from z3tt for his TidyTuesday plot from The Office, which I find very cool.\nFirstly, we need to compute some informations that will be used to make a graph :\n\nEpisode number\nNote by season\nRating mean\n\n\ndf_avg &lt;-\n  table %&gt;% \n  group_by(saison) %&gt;% \n  mutate(episode = row_number(),\n         saison = as.numeric(saison),\n         note = as.numeric(note),\n         vote = gsub(',','',vote),\n         vote = as.numeric(gsub(\"[^\\\\d]+\", \"\", vote, perl=TRUE))\n  ) %&gt;% \n  ungroup() %&gt;% \n  arrange(saison, episode) %&gt;% \n  mutate(episode_id = row_number()) %&gt;% \n  group_by(saison) %&gt;% \n  mutate(\n    avg = mean(note),\n    episode_mod = episode_id + (9 * saison),\n    mid = mean(episode_mod)\n  ) %&gt;% \n  ungroup() %&gt;% \n  mutate(saison = factor(saison))\n\nSecondly, for each season summarize the rating :\n\ndf_lines &lt;-\n  df_avg %&gt;% \n  group_by(saison) %&gt;% \n  summarize(\n    start_x = min(episode_mod) -5,\n    end_x = max(episode_mod) + 5,\n    y = unique(avg)\n  ) %&gt;% \n  pivot_longer(\n    cols = c(start_x, end_x),\n    names_to = \"type\",\n    values_to = \"x\"\n  ) %&gt;% \n  mutate(\n    x_group = if_else(type == \"start_x\", x + .1, x - .1),\n    x_group = if_else(type == \"start_x\" & x == min(x), x_group - .1, x_group),\n    x_group = if_else(type == \"end_x\" & x == max(x), x_group + .1, x_group)\n  )\n\nThen plot :\n\nnb.cols &lt;- s\nmycolors &lt;- colorRampPalette(brewer.pal(8, \"Paired\"))(nb.cols)\n\ndf_avg %&gt;%\n  ggplot(aes(episode_mod, note)) +\n  geom_hline(\n    data = tibble(y = 7:11),\n    aes(yintercept = y),\n    color = \"grey82\",\n    size = .5\n  ) +\n  geom_segment(aes(\n    xend = episode_mod,\n    yend = avg,\n    color = saison,\n    color = after_scale(colorspace::lighten(color, .2))\n  )) +\n  geom_line(data = df_lines,\n            aes(\n              x_group,\n              y,\n              color = saison,\n              color = after_scale(colorspace::darken(color, .2))\n            ),\n            size = 2.5) +\n  geom_point(aes(size = vote,\n                 color = saison)) +\n  geom_label(\n    aes(\n      mid,\n      10.2,\n      label = glue::glue(\" Saison {saison} \"),\n      color = saison,\n      color = after_scale(colorspace::darken(color, .2))\n    ),\n    show.legend = FALSE,\n    fill = NA,\n    label.padding = unit(.2, \"lines\"),\n    label.r = unit(.25, \"lines\"),\n    label.size = .5\n  )  +\n  scale_x_continuous(expand = c(.015, .015)) +\n  scale_y_continuous(\n    expand = c(.03, .03),\n    limits = c(6.5, 10.5),\n    breaks = seq(6.5, 10, by = .5),\n    sec.axis = dup_axis(name = NULL)\n  ) +\n  scale_color_manual(values = mycolors, guide = \"none\") +\n  scale_size_binned(\n    name = \"Votes per episode\",\n    range = c(.3, 6),\n    labels = function(x)\n      format(x, big.mark = \" \", scientific = FALSE)\n  ) +\n  ggtitle(serie_title) +\n  labs(x = \"\", y = \"Rating\",\n       caption = \"Visualization by Clément Rieux\") +\n  guides(\n    size = guide_bins(\n      show.limits = T,\n      direction = \"horizontal\",\n      title.position = \"top\",\n      title.hjust = .5\n    )\n  ) +\n  theme(\n    legend.position = c(.2, .085),\n    legend.key.size = unit(1, 'cm'),\n    legend.key.width = unit(2, \"lines\"),\n    legend.text = element_text(\n      angle = 60,\n      vjust = 1,\n      hjust = 1\n    ),\n    axis.ticks.x = element_blank(),\n    axis.text.x = element_blank()\n  )\n\n\n\n\nWe can also look at the evolution over time :\n\ndf_avg %&gt;% \n  mutate(date = as.Date(date)) %&gt;%  \n  ggplot(aes(x = date, y = note, color = note)) +\n  geom_point() +\n  scale_colour_gradient(low = \"#E84D23\", high = \"#3CDE0B\", na.value = NA) + \n  scale_x_date(date_breaks = \"3 month\", date_labels = \"%b-%Y\") + \n  theme_classic() + \n  theme(axis.text.x = element_text(angle = 70, hjust = 1)) \n\n\n\n\nNow you are able to retrieve data from imdb and do analysis yourself !\nIf you want to see all the code and examples (Stranger Things, Peaky Bliders, The Simpsons…), you can find it on my github."
   },
   {
     "objectID": "posts/2023-04-python-filter/es/index.html",
     "href": "posts/2023-04-python-filter/es/index.html",
+    "title": "Filtra tus datos con Python",
+    "section": "",
+    "text": "El objetivo de este tutorial es comprender rápidamente cómo filtrar datos con Python."
+  },
+  {
+    "objectID": "posts/2023-04-python-filter/es/index.html#cómo-filtrar-datos-en-python",
+    "href": "posts/2023-04-python-filter/es/index.html#cómo-filtrar-datos-en-python",
     "title": "Filtra tus datos con Python",
     "section": "",
     "text": "El objetivo de este tutorial es comprender rápidamente cómo filtrar datos con Python."
@@ -242,11 +179,67 @@
     "href": "posts/2023-04-python-filter/es/index.html#filtros",
     "title": "Filtra tus datos con Python",
     "section": "Filtros",
-    "text": "Filtros\nFiltrar filas para personas menores de 30 años :\n\ndf_30 = df[df['Age'] < 30]\nprint(df_30)\n\n      Nom  Age      Ville\n0    Jean   25      Paris\n2  Pierre   20  Marseille\n5  Sophie   28     Nantes\n\n\nSelección de líneas para menores de 30 años que viven en Nantes o París :\n\ndf_filtre = df[(df['Age'] < 30) & ((df['Ville'] == 'Nantes') | (df['Ville'] == 'Paris'))]\n\nprint(df_filtre)\n\n      Nom  Age   Ville\n0    Jean   25   Paris\n5  Sophie   28  Nantes\n\n\nFiltrar columnas solo por nombres y ciudades :\n\ndf_name_city = df[['Nom', 'Ville']]\nprint(df_name_city)\n\n       Nom      Ville\n0     Jean      Paris\n1    Lucie       Lyon\n2   Pierre  Marseille\n3    Marie   Toulouse\n4  Antoine   Bordeaux\n5   Sophie     Nantes\n\n\nRecuperación del nombre y la edad de personas menores de 30 años que viven en Nantes o París :\n\nfiltre = (df['Age'] < 30) & ((df['Ville'] == 'Nantes') | (df['Ville'] == 'Paris'))\ndf_filtre = df.loc[filtre, ['Nom', 'Age']]\n\nprint(df_filtre)\n\n      Nom  Age\n0    Jean   25\n5  Sophie   28"
+    "text": "Filtros\nFiltrar filas para personas menores de 30 años :\n\ndf_30 = df[df['Age'] &lt; 30]\nprint(df_30)\n\n      Nom  Age      Ville\n0    Jean   25      Paris\n2  Pierre   20  Marseille\n5  Sophie   28     Nantes\n\n\nSelección de líneas para menores de 30 años que viven en Nantes o París :\n\ndf_filtre = df[(df['Age'] &lt; 30) & ((df['Ville'] == 'Nantes') | (df['Ville'] == 'Paris'))]\n\nprint(df_filtre)\n\n      Nom  Age   Ville\n0    Jean   25   Paris\n5  Sophie   28  Nantes\n\n\nFiltrar columnas solo por nombres y ciudades :\n\ndf_name_city = df[['Nom', 'Ville']]\nprint(df_name_city)\n\n       Nom      Ville\n0     Jean      Paris\n1    Lucie       Lyon\n2   Pierre  Marseille\n3    Marie   Toulouse\n4  Antoine   Bordeaux\n5   Sophie     Nantes\n\n\nRecuperación del nombre y la edad de personas menores de 30 años que viven en Nantes o París :\n\nfiltre = (df['Age'] &lt; 30) & ((df['Ville'] == 'Nantes') | (df['Ville'] == 'Paris'))\ndf_filtre = df.loc[filtre, ['Nom', 'Age']]\n\nprint(df_filtre)\n\n      Nom  Age\n0    Jean   25\n5  Sophie   28"
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nLibrary para saber\n\n\nTop library R\n\n\n3 min\n\n\n\nlibrary\n\n\npackage\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLes library à connaitre\n\n\nTop library R\n\n\n3 min\n\n\n\nlibrary\n\n\npackage\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeb scraping and tv show analysis\n\n\nGet and plot imdb data\n\n\n8 min\n\n\n\nscraping\n\n\nplot\n\n\nhttr\n\n\nWeb Scraping\n\n\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUtiliser Chat GPT avec R\n\n\nLibrary (gptstudio)\n\n\n2 min\n\n\n\ngpt\n\n\nchat GPT\n\n\naddins\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFilter your data with Python\n\n\nSelection of rows or columns\n\n\n1 min\n\n\n\npython\n\n\nfilter\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFiltra tus datos con Python\n\n\nSelección de filas o columnas\n\n\n1 min\n\n\n\npython\n\n\nFiltra\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFiltrer ses données avec Python\n\n\nSélection de lignes ou colonnes\n\n\n1 min\n\n\n\npython\n\n\nfiltre\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/en.html",
+    "href": "posts/en.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWeb scraping and tv show analysis\n\n\nGet and plot imdb data\n\n\n8 min\n\n\n\nscraping\n\n\nplot\n\n\nhttr\n\n\nWeb Scraping\n\n\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFilter your data with Python\n\n\nSelection of rows or columns\n\n\n1 min\n\n\n\npython\n\n\nfilter\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/fr.html",
+    "href": "posts/fr.html",
+    "title": "Posts",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nLes library à connaitre\n\n\nTop library R\n\n\n3 min\n\n\n\nlibrary\n\n\npackage\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUtiliser Chat GPT avec R\n\n\nLibrary (gptstudio)\n\n\n2 min\n\n\n\ngpt\n\n\nchat GPT\n\n\naddins\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFiltrer ses données avec Python\n\n\nSélection de lignes ou colonnes\n\n\n1 min\n\n\n\npython\n\n\nfiltre\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2023-04-python-filter/fr/index.html",
+    "href": "posts/2023-04-python-filter/fr/index.html",
+    "title": "Filtrer ses données avec Python",
+    "section": "",
+    "text": "Le but de ce tutoriel est de comprendre rapidement comment filtrer des données avec Python."
+  },
+  {
+    "objectID": "posts/2023-04-python-filter/fr/index.html#comment-filtrer-ses-données-en-python",
+    "href": "posts/2023-04-python-filter/fr/index.html#comment-filtrer-ses-données-en-python",
+    "title": "Filtrer ses données avec Python",
+    "section": "",
+    "text": "Le but de ce tutoriel est de comprendre rapidement comment filtrer des données avec Python."
+  },
+  {
+    "objectID": "posts/2023-04-python-filter/fr/index.html#données",
+    "href": "posts/2023-04-python-filter/fr/index.html#données",
+    "title": "Filtrer ses données avec Python",
+    "section": "Données",
+    "text": "Données\n\nimport pandas as pd\n\nnoms = ['Jean', 'Lucie', 'Pierre', 'Marie', 'Antoine', 'Sophie']\nages = [25, 30, 20, 40, 35, 28]\nvilles = ['Paris', 'Lyon', 'Marseille', 'Toulouse', 'Bordeaux', 'Nantes']\ndf = pd.DataFrame({'Nom': noms, 'Age': ages, 'Ville': villes})\n\nprint(df)\n\n       Nom  Age      Ville\n0     Jean   25      Paris\n1    Lucie   30       Lyon\n2   Pierre   20  Marseille\n3    Marie   40   Toulouse\n4  Antoine   35   Bordeaux\n5   Sophie   28     Nantes"
+  },
+  {
+    "objectID": "posts/2023-04-python-filter/fr/index.html#filtres",
+    "href": "posts/2023-04-python-filter/fr/index.html#filtres",
+    "title": "Filtrer ses données avec Python",
+    "section": "Filtres",
+    "text": "Filtres\nFiltrer les lignes pour les personnes âgées de moins de 30 ans :\n\ndf_30 = df[df['Age'] &lt; 30]\nprint(df_30)\n\n      Nom  Age      Ville\n0    Jean   25      Paris\n2  Pierre   20  Marseille\n5  Sophie   28     Nantes\n\n\nSélection des lignes pour les personnes de moins de 30 ans habitant à Nantes ou Paris :\n\ndf_filtre = df[(df['Age'] &lt; 30) & ((df['Ville'] == 'Nantes') | (df['Ville'] == 'Paris'))]\n\nprint(df_filtre)\n\n      Nom  Age   Ville\n0    Jean   25   Paris\n5  Sophie   28  Nantes\n\n\nFiltrer les colonnes pour les noms et les villes uniquement :\n\ndf_name_city = df[['Nom', 'Ville']]\nprint(df_name_city)\n\n       Nom      Ville\n0     Jean      Paris\n1    Lucie       Lyon\n2   Pierre  Marseille\n3    Marie   Toulouse\n4  Antoine   Bordeaux\n5   Sophie     Nantes\n\n\nRécupération du nom et de l’âge des personnes de moins de 30 ans qui habitent à Nantes ou Paris :\n\nfiltre = (df['Age'] &lt; 30) & ((df['Ville'] == 'Nantes') | (df['Ville'] == 'Paris'))\ndf_filtre = df.loc[filtre, ['Nom', 'Age']]\n\nprint(df_filtre)\n\n      Nom  Age\n0    Jean   25\n5  Sophie   28"
   },
   {
     "objectID": "posts/2023-04-python-filter/en/index.html",
     "href": "posts/2023-04-python-filter/en/index.html",
+    "title": "Filter your data with Python",
+    "section": "",
+    "text": "The goal of this tutorial is to quickly understand how to filter data with Python."
+  },
+  {
+    "objectID": "posts/2023-04-python-filter/en/index.html#how-to-filter-data-in-python",
+    "href": "posts/2023-04-python-filter/en/index.html#how-to-filter-data-in-python",
     "title": "Filter your data with Python",
     "section": "",
     "text": "The goal of this tutorial is to quickly understand how to filter data with Python."
@@ -263,25 +256,25 @@
     "href": "posts/2023-04-python-filter/en/index.html#filters",
     "title": "Filter your data with Python",
     "section": "Filters",
-    "text": "Filters\nFilter rows for people under 30 :\n\ndf_30 = df[df['Age'] < 30]\nprint(df_30)\n\n      Nom  Age      Ville\n0    Jean   25      Paris\n2  Pierre   20  Marseille\n5  Sophie   28     Nantes\n\n\nSelection of lines for people under 30 living in Nantes or Paris :\n\ndf_filtre = df[(df['Age'] < 30) & ((df['Ville'] == 'Nantes') | (df['Ville'] == 'Paris'))]\n\nprint(df_filtre)\n\n      Nom  Age   Ville\n0    Jean   25   Paris\n5  Sophie   28  Nantes\n\n\nFilter columns for names and cities only :\n\ndf_name_city = df[['Nom', 'Ville']]\nprint(df_name_city)\n\n       Nom      Ville\n0     Jean      Paris\n1    Lucie       Lyon\n2   Pierre  Marseille\n3    Marie   Toulouse\n4  Antoine   Bordeaux\n5   Sophie     Nantes\n\n\nGet the name and age of people under 30 who live in Nantes or Paris:\n\nfiltre = (df['Age'] < 30) & ((df['Ville'] == 'Nantes') | (df['Ville'] == 'Paris'))\ndf_filtre = df.loc[filtre, ['Nom', 'Age']]\n\nprint(df_filtre)\n\n      Nom  Age\n0    Jean   25\n5  Sophie   28"
+    "text": "Filters\nFilter rows for people under 30 :\n\ndf_30 = df[df['Age'] &lt; 30]\nprint(df_30)\n\n      Nom  Age      Ville\n0    Jean   25      Paris\n2  Pierre   20  Marseille\n5  Sophie   28     Nantes\n\n\nSelection of lines for people under 30 living in Nantes or Paris :\n\ndf_filtre = df[(df['Age'] &lt; 30) & ((df['Ville'] == 'Nantes') | (df['Ville'] == 'Paris'))]\n\nprint(df_filtre)\n\n      Nom  Age   Ville\n0    Jean   25   Paris\n5  Sophie   28  Nantes\n\n\nFilter columns for names and cities only :\n\ndf_name_city = df[['Nom', 'Ville']]\nprint(df_name_city)\n\n       Nom      Ville\n0     Jean      Paris\n1    Lucie       Lyon\n2   Pierre  Marseille\n3    Marie   Toulouse\n4  Antoine   Bordeaux\n5   Sophie     Nantes\n\n\nGet the name and age of people under 30 who live in Nantes or Paris:\n\nfiltre = (df['Age'] &lt; 30) & ((df['Ville'] == 'Nantes') | (df['Ville'] == 'Paris'))\ndf_filtre = df.loc[filtre, ['Nom', 'Age']]\n\nprint(df_filtre)\n\n      Nom  Age\n0    Jean   25\n5  Sophie   28"
   },
   {
     "objectID": "posts/es.html",
     "href": "posts/es.html",
     "title": "Posts",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nLibrary para saber\n\n\nTop library R\n\n\n2 min\n\n\n\nlibrary\n\n\npackage\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFiltra tus datos con Python\n\n\nSelección de filas o columnas\n\n\n0 min\n\n\n\npython\n\n\nFiltra\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "index.html#artículos-en-español",
-    "href": "index.html#artículos-en-español",
-    "title": "Clément Rieux",
-    "section": "Artículos en español",
-    "text": "Artículos en español\n\n\n\n\n  \n\n\n\n\nLibrary para saber\n\n\nTop library R\n\n\n\n\nlibrary\n\n\npackage\n\n\n \n\n\n\n\nMar 21, 2023\n\n\nClément Rieux\n\n\n3 min\n\n\n\n\n\n\n  \n\n\n\n\nFiltra tus datos con Python\n\n\nSelección de filas o columnas\n\n\n\n\npython\n\n\nFiltra\n\n\n \n\n\n\n\nJan 1, 2023\n\n\nClément Rieux\n\n\n1 min\n\n\n\n\n\n\nNo matching items\n\n\n Ver artículos en español"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nLibrary para saber\n\n\nTop library R\n\n\n3 min\n\n\n\nlibrary\n\n\npackage\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFiltra tus datos con Python\n\n\nSelección de filas o columnas\n\n\n1 min\n\n\n\npython\n\n\nFiltra\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2023-03-top-lib/es/index.html",
     "href": "posts/2023-03-top-lib/es/index.html",
+    "title": "Library para saber",
+    "section": "",
+    "text": "Cuando se trata de trabajar con datos, R es uno de los lenguajes de programación más populares y poderosos disponibles en la actualidad. Con su gran comunidad de desarrolladores, R ofrece miles de paquetes para ayudar a resolver una amplia variedad de problemas de procesamiento y análisis de datos. Sin embargo, con tantos paquetes disponibles, puede ser difícil saber por dónde empezar. En este artículo, le presentaré algunas de las library de R más populares y útiles para ayudarlo a iniciarse en el análisis de datos con R. Ya sea que sea un principiante o un usuario experimentado de R, debería encontrar algo interesante en esta lista."
+  },
+  {
+    "objectID": "posts/2023-03-top-lib/es/index.html#introducción",
+    "href": "posts/2023-03-top-lib/es/index.html#introducción",
     "title": "Library para saber",
     "section": "",
     "text": "Cuando se trata de trabajar con datos, R es uno de los lenguajes de programación más populares y poderosos disponibles en la actualidad. Con su gran comunidad de desarrolladores, R ofrece miles de paquetes para ayudar a resolver una amplia variedad de problemas de procesamiento y análisis de datos. Sin embargo, con tantos paquetes disponibles, puede ser difícil saber por dónde empezar. En este artículo, le presentaré algunas de las library de R más populares y útiles para ayudarlo a iniciarse en el análisis de datos con R. Ya sea que sea un principiante o un usuario experimentado de R, debería encontrar algo interesante en esta lista."
@@ -322,10 +315,17 @@
     "text": "lubridate\n\n\n\n\n\nLubridate es una library de R que facilita la manipulación de datos temporales. Te permite gestionar fechas y horas con gran precisión y gran flexibilidad. Las características principales de Lubridate incluyen la creación de fechas y horas, la gestión de diferentes formatos de fecha, la manipulación de zonas horarias, la conversión de fechas y horas a diferentes formatos de texto y la gestión de duraciones."
   },
   {
-    "objectID": "index.html#recent-posts-articles-récents",
-    "href": "index.html#recent-posts-articles-récents",
+    "objectID": "about-es.html",
+    "href": "about-es.html",
     "title": "Clément Rieux",
     "section": "",
-    "text": "Mar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMar 21, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMar 20, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJan 1, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\n  \n\n\n See all"
+    "text": "English  Français  Español\n\n\n\n¡Buenos dias!\nMi nombre es Clément y soy científico de datos en Francia.\nSoy fanático de R y lo uso a diario.\nTengo una maestría en economía de Toulouse School of Economis, y trabajo para EDF como cientifico de datos."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Clément Rieux",
+    "section": "",
+    "text": "English  Français  Español\n\n\n\nHi!\nMy name is Clément, and I am Data Scientist from France.\nI’m a fan of R and use it daily.\nI have a master’s degree in economics from the Toulouse School of Economis, and I have been working for EDF as Data Scientist."
   }
 ]

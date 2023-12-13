@@ -31,7 +31,7 @@ Je m'appelle Clément, et je suis Data Scientist en France.
 
 Je suis un fan de R et je l'utilise quotidiennement.
 
-J'ai un Master d'Economie de [Toulouse School of Economis](https://www.tse-fr.eu/), et je travaille pour [Epsilon France](https://epsilon-france.com/) depuis 2019 en tant que consultant.
+J'ai un Master d'Economie de [Toulouse School of Economis](https://www.tse-fr.eu/), et je travaille pour [EDF](https://www.edf.fr/) en tant que Data Scientist.
 
 <!-- Mes projets personnels sont axés sur les courses de chevaux en France. -->
 :::

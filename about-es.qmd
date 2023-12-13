@@ -31,7 +31,7 @@ Mi nombre es Clément y soy científico de datos en Francia.
 
 Soy fanático de R y lo uso a diario.
 
-Tengo una maestría en economía de [Toulouse School of Economis](https://www.tse-fr.eu/), y trabajo para [Epsilon France](https://epsilon-france.com/) desde 2019 como consultor.
+Tengo una maestría en economía de [Toulouse School of Economis](https://www.tse-fr.eu/), y trabajo para [EDF](https://www.edf.fr/) como cientifico de datos.
 
 <!-- Mes projets personnels sont axés sur les courses de chevaux en France. -->
 :::
