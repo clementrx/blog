@@ -26,6 +26,8 @@ website:
             href: posts/fr.qmd
           - text: Español
             href: posts/es.qmd
+      - text: CV
+        href: resume.pdf
       - icon: github
         href: https://github.com/clementrx
       - icon: linkedin
