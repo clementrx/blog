@@ -31,7 +31,7 @@ My name is Clément, and I am Data Scientist from France.
 
 I'm a fan of R and use it daily.
 
-I have a master's degree in economics from the [Toulouse School of Economis](https://www.tse-fr.eu/), and I have been working for [EDF](https://www.edf.fr/) as Data Scientist.
+I have a master's degree in economics from the [Toulouse School of Economis](https://www.tse-fr.eu/), and I'm working at [EDF](https://www.edf.fr/) as Data Scientist.
 
 <!-- My personal projects are about horse racing in France. -->
 :::
