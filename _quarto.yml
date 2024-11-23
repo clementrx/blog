@@ -27,7 +27,13 @@ website:
           - text: Español
             href: posts/es.qmd
       - text: CV
-        href: resume.pdf
+        menu:
+          - text: CV en Français
+            href: resume-fr.pdf
+          - text: CV in English
+            href: resume-en.pdf
+          - text: CV en Español
+            href: resume-es.pdf
       - icon: github
         href: https://github.com/clementrx
       - icon: linkedin
