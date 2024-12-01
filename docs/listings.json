@@ -4,11 +4,9 @@
     "items": [
       "/posts/2023-03-tv-show-plot/en/index.html",
       "/posts/2023-04-python-filter/en/index.html",
-      "/posts/2024-11-metrics-classification/fr/index.html",
       "/posts/2023-03-top-lib/fr/index.html",
       "/posts/2023-04-gpt/fr/index.html",
       "/posts/2023-04-python-filter/fr/index.html",
-      "/posts/2024-11-metrics-classification/es/index.html",
       "/posts/2023-03-top-lib/es/index.html",
       "/posts/2023-04-python-filter/es/index.html"
     ]
@@ -16,8 +14,6 @@
   {
     "listing": "/posts/index.html",
     "items": [
-      "/posts/2024-11-metrics-classification/es/index.html",
-      "/posts/2024-11-metrics-classification/fr/index.html",
       "/posts/2023-03-top-lib/es/index.html",
       "/posts/2023-03-top-lib/fr/index.html",
       "/posts/2023-03-tv-show-plot/en/index.html",
@@ -37,7 +33,6 @@
   {
     "listing": "/posts/fr.html",
     "items": [
-      "/posts/2024-11-metrics-classification/fr/index.html",
       "/posts/2023-03-top-lib/fr/index.html",
       "/posts/2023-04-gpt/fr/index.html",
       "/posts/2023-04-python-filter/fr/index.html"
@@ -46,7 +41,6 @@
   {
     "listing": "/posts/es.html",
     "items": [
-      "/posts/2024-11-metrics-classification/es/index.html",
       "/posts/2023-03-top-lib/es/index.html",
       "/posts/2023-04-python-filter/es/index.html"
     ]
